@@ -3,11 +3,11 @@ import { Carousel } from "rsuite";
 import VideoCover from 'react-video-cover';
 
 const carouselImages = [
-    { url: "/images/BlackSandBeach.jpg", name: "Black ss" },
-    { url: "/images/BrownSandBeach.jpg", name: "Black ss" },
-    { url: "/images/GoldSandBeach.jpg", name: "Black ss" },
-    { url: "/images/PinkSandBeach1.jpg", name: "Black ss" },
-    { url: "/images/WhiteSandBeach3.jpg", name: "Black ss" }
+    { url: `${process.env.PUBLIC_URL}/images/PinkSandBeach1.jpg`, name: "Pink Sand" },
+    { url: `${process.env.PUBLIC_URL}/images/BlackSandBeach.jpg`, name: "Black Sand" },
+    { url: `${process.env.PUBLIC_URL}/images/GoldSandBeach.jpg`, name: "Gold Sand" },
+    { url: `${process.env.PUBLIC_URL}/images/WhiteSandBeach3.jpg`, name: "White Sand" },
+    { url: `${process.env.PUBLIC_URL}/images/BrownSandBeach1.jpg`, name: "Brown Sand" },
 ]
 
 export class Header extends Component {
@@ -22,7 +22,7 @@ export class Header extends Component {
                             height: '50vh',
                             overflow: 'hidden',
                         }}>
-                            <VideoCover videoOptions={{ src: "/images/logo_animation.mp4", autoPlay: true, loop: true }} />
+                            <VideoCover videoOptions={{ src: `${process.env.PUBLIC_URL}/images/logo_animation.mp4` , autoPlay: true, loop: true }} />
                         </div>
                     </div>
                     <div>
