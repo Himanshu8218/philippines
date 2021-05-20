@@ -7,7 +7,7 @@ const carouselImages = [
     { url: `${process.env.PUBLIC_URL}/images/BlackSandBeach.jpg`, name: "Black Sand" },
     { url: `${process.env.PUBLIC_URL}/images/GoldSandBeach.jpg`, name: "Gold Sand" },
     { url: `${process.env.PUBLIC_URL}/images/WhiteSandBeach3.jpg`, name: "White Sand" },
-    { url: `${process.env.PUBLIC_URL}/images/BrownSandBeach1.jpg`, name: "Brown Sand" },
+    { url: `${process.env.PUBLIC_URL}/images/BrownSandBeach.jpg`, name: "Brown Sand" },
 ]
 
 export class Header extends Component {
