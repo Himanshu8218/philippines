@@ -3,17 +3,17 @@ import { Icon } from "rsuite";
 
 const features = [
     { icon: "file-code-o", title: "Adventure" },
-    { icon: "Island Life", title: "Island Life" },
-    { icon: "Attractions", title: " Attractions" },
-    { icon: " Festivals", title: " Festivals" },
-    { icon: "Shopping", title: "Shopping" },
-    { icon: " Entertainment ", title: " Entertainment " },
-    { icon: "Travel Partners", title: "Travel Partners" },
-    { icon: "Video & Pics", title: "Video & Pics" },
-    { icon: "Information", title: "Information" },
-    { icon: "Health", title: "Health" },
-    { icon: "Transportation", title: "Transportation" },
-    { icon: "cog", title: "title" }
+    { icon: "ship", title: "Island Life" },
+    { icon: "fort-awesome", title: " Attractions" },
+    { icon: "gift", title: " Festivals" },
+    { icon: "shopping-bag", title: "Shopping" },
+    { icon: "glass", title: " Entertainment " },
+    { icon: "handshake-o", title: "Travel Partners" },
+    { icon: "camera", title: "Video & Pics" },
+    { icon: "info", title: "Information" },
+    { icon: "heartbeat", title: "Health" },
+    { icon: "plane", title: "Transportation" },
+    { icon: "cog", title: "Halaal Itineraries" }
 ]
 
 export class Map extends Component {
@@ -23,7 +23,7 @@ export class Map extends Component {
             return (
                 <div className="mb-3 mt-3 col-md-3 col-4 text-center">
                     <div style={{ width: "100px" }}>
-                        <div className="p-2" style={{ backgroundColor: "#848383", borderRadius: "50%", height: "100px" }}>
+                        <div className="p-2" style={{ backgroundColor: "#1B9EB2", borderRadius: "50%", height: "100px", }}>
                             <Icon icon={feature.icon} size="4x" style={{ marginTop: "15px", color: "#ffffff" }} />
                         </div>
                         <div className="mt-2 text-black">{feature.title}</div>
