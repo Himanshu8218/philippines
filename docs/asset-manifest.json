@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/philippines/static/css/main.b7937c9d.chunk.css",
+    "main.js": "/philippines/static/js/main.40303a33.chunk.js",
+    "main.js.map": "/philippines/static/js/main.40303a33.chunk.js.map",
+    "runtime-main.js": "/philippines/static/js/runtime-main.9c76fbaa.js",
+    "runtime-main.js.map": "/philippines/static/js/runtime-main.9c76fbaa.js.map",
+    "static/css/2.809e1753.chunk.css": "/philippines/static/css/2.809e1753.chunk.css",
+    "static/js/2.24c68077.chunk.js": "/philippines/static/js/2.24c68077.chunk.js",
+    "static/js/2.24c68077.chunk.js.map": "/philippines/static/js/2.24c68077.chunk.js.map",
+    "static/js/3.f8a31419.chunk.js": "/philippines/static/js/3.f8a31419.chunk.js",
+    "static/js/3.f8a31419.chunk.js.map": "/philippines/static/js/3.f8a31419.chunk.js.map",
+    "index.html": "/philippines/index.html",
+    "static/css/2.809e1753.chunk.css.map": "/philippines/static/css/2.809e1753.chunk.css.map",
+    "static/css/main.b7937c9d.chunk.css.map": "/philippines/static/css/main.b7937c9d.chunk.css.map",
+    "static/js/2.24c68077.chunk.js.LICENSE.txt": "/philippines/static/js/2.24c68077.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c76fbaa.js",
+    "static/css/2.809e1753.chunk.css",
+    "static/js/2.24c68077.chunk.js",
+    "static/css/main.b7937c9d.chunk.css",
+    "static/js/main.40303a33.chunk.js"
+  ]
+}
