@@ -5,7 +5,7 @@ const features = [
     { url: `${process.env.PUBLIC_URL}/images/icons/Adventure.png` },
     { url: `${process.env.PUBLIC_URL}/images/icons/Beaches.png` },
     { url: `${process.env.PUBLIC_URL}/images/icons/Attractions.png` },
-    { url: `${process.env.PUBLIC_URL}/images/icons/culture.png` },
+    { url: `${process.env.PUBLIC_URL}/images/icons/Culture.png` },
     { url: `${process.env.PUBLIC_URL}/images/icons/Shopping.png` },
     { url: `${process.env.PUBLIC_URL}/images/icons/Entertainment.png` },
     { url: `${process.env.PUBLIC_URL}/images/icons/Travel Agents.png` },
@@ -13,7 +13,7 @@ const features = [
     { url: `${process.env.PUBLIC_URL}/images/icons/Info.png` },
     { url: `${process.env.PUBLIC_URL}/images/icons/Travel Advisory.png` },
     { url: `${process.env.PUBLIC_URL}/images/icons/Transportation.png` },
-    { url: `${process.env.PUBLIC_URL}/images/icons/itinerary.png` }
+    { url: `${process.env.PUBLIC_URL}/images/icons/Itinerary.png` }
 ]
 
 export class Map extends Component {
@@ -47,7 +47,7 @@ export class Map extends Component {
                         </div>
                         <div className="col-md-4 col-12">
                             <div className="mt-5">
-                                <img className="img-fluid" src={`${process.env.PUBLIC_URL}/images/maps3.svg`}></img>
+                                <img className="img-fluid" src={`${process.env.PUBLIC_URL}/images/Maps3.svg`}></img>
                             </div>
                         </div>
                     </div>
