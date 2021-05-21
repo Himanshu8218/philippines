@@ -1,8 +1,18 @@
+*{
+  outline-color: transparent;
+  outline-style: none;
+}
+
+*{
+  outline: none;   
+}
+
 body {
   font-family: 'Montserrat';
 }
 
 .feature-icon-item:hover{
-  transform: scale(1.2);
+  transform: scale(1.5);
   cursor: pointer;
 }
+

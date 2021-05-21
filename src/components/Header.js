@@ -1,7 +1,7 @@
 import { Component } from "react";
 import { Carousel } from './carousel/carousel'
 import VideoCover from 'react-video-cover';
-import NavbarComponent  from './Navbar';
+import NavbarComponent from './Navbar';
 
 const carouselImages = [
     { url: `${process.env.PUBLIC_URL}/images/PinkSandBeach1.jpg`, name: "Pink Sand" },
@@ -15,8 +15,8 @@ export class Header extends Component {
 
     render = () => {
         return (
-            <div style={{position: "relative"}}>
-                <NavbarComponent/>
+            <div style={{ position: "relative" }}>
+                <NavbarComponent />
                 <div>
                     <div>
                         <div style={{
@@ -24,7 +24,7 @@ export class Header extends Component {
                             height: '70vh',
                             overflow: 'hidden',
                         }}>
-                            <VideoCover videoOptions={{ src: `${process.env.PUBLIC_URL}/images/logo_animation.mp4` , autoPlay: true, loop: true }} />
+                            <VideoCover videoOptions={{ src: `${process.env.PUBLIC_URL}/images/logo_animation.mp4`, autoPlay: true, loop: true, muted:true }} />
                         </div>
                     </div>
                     <div>
@@ -50,8 +50,8 @@ export class Header extends Component {
                     </div>
                 </div>
                 <div style={{ position: "absolute", top: "52%", width: "100%" }}>
-                    <div className="text-center" style={{margin: "auto" , color:"#1B9EB2"}}>
-                        <span className="bg-white p-4" style={{fontSize: "2em", borderRadius:"10px", boxShadow:"#44444444 5px 8px"}} >WHERE NATURE HAS FUN WITH COLOURS</span>
+                    <div className="text-center" style={{ margin: "auto", color: "#1B9EB2" }}>
+                        <span className="bg-white p-4" style={{ fontSize: "2em", borderRadius: "10px", boxShadow: "#44444422 5px 5px", fontWeight: 'bold' }} >WHERE NATURE HAS FUN WITH COLOURS</span>
                     </div>
                 </div>
             </div>

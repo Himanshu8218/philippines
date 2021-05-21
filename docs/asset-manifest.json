@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/philippines/static/css/main.36b2aa5f.chunk.css",
-    "main.js": "/philippines/static/js/main.45ec60cd.chunk.js",
-    "main.js.map": "/philippines/static/js/main.45ec60cd.chunk.js.map",
+    "main.css": "/philippines/static/css/main.3b53232d.chunk.css",
+    "main.js": "/philippines/static/js/main.6db69150.chunk.js",
+    "main.js.map": "/philippines/static/js/main.6db69150.chunk.js.map",
     "runtime-main.js": "/philippines/static/js/runtime-main.b630524b.js",
     "runtime-main.js.map": "/philippines/static/js/runtime-main.b630524b.js.map",
     "static/css/2.809e1753.chunk.css": "/philippines/static/css/2.809e1753.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.b55961d4.chunk.js.map": "/philippines/static/js/3.b55961d4.chunk.js.map",
     "index.html": "/philippines/index.html",
     "static/css/2.809e1753.chunk.css.map": "/philippines/static/css/2.809e1753.chunk.css.map",
-    "static/css/main.36b2aa5f.chunk.css.map": "/philippines/static/css/main.36b2aa5f.chunk.css.map",
+    "static/css/main.3b53232d.chunk.css.map": "/philippines/static/css/main.3b53232d.chunk.css.map",
     "static/js/2.165ad83c.chunk.js.LICENSE.txt": "/philippines/static/js/2.165ad83c.chunk.js.LICENSE.txt",
     "static/media/left-icon.257fe26b.svg": "/philippines/static/media/left-icon.257fe26b.svg",
     "static/media/left-icon.5cdfc497.svg": "/philippines/static/media/left-icon.5cdfc497.svg",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.b630524b.js",
     "static/css/2.809e1753.chunk.css",
     "static/js/2.165ad83c.chunk.js",
-    "static/css/main.36b2aa5f.chunk.css",
-    "static/js/main.45ec60cd.chunk.js"
+    "static/css/main.3b53232d.chunk.css",
+    "static/js/main.6db69150.chunk.js"
   ]
 }
