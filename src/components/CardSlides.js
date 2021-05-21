@@ -40,7 +40,7 @@ export class CardSlides extends Component {
                     <div className="p-3" style={{ width: "100%", height: "100%" }}>
                         <div style={{ borderColor: "#ffffff", position: "relative", borderStyle: "solid", borderWidth: "2px", borderRadius: "10px", width: "100%", height: "100%" }}>
                             <div className="p-4 text-white" style={{ position: "absolute", bottom: 0, left: 0 }} >
-                                <p className="h5">{item.name}</p>
+                                
                             </div>
                         </div>
                     </div>
