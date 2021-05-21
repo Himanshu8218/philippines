@@ -15,7 +15,7 @@ export class NavbarComponent extends Component {
                                 <Nav.Item eventKey="3"><Icon icon="search" className="text-white" /></Nav.Item>
                             </Nav>
                             <Nav pullRight>
-                                <Nav.Item ><img src="${process.env.PUBLIC_URL}/images/BlackSandBeach.jpg" className="img-fluid" style={{ width: "80px" }} /></Nav.Item>
+                                <Nav.Item ><img src={`${process.env.PUBLIC_URL}/images/logo.png`} className="img-fluid" style={{ width: "90px" }} /></Nav.Item>
                             </Nav>
                         </Navbar.Body>
                     </div>

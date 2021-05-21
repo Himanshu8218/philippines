@@ -48,8 +48,8 @@ export class Header extends Component {
                     </div>
                 </div>
                 <div style={{ position: "absolute", top: "47%", width: "100%" }}>
-                    <div className="text-center" style={{margin: "auto" , WebkitTextFillColor:"#1B9EB2"}}>
-                        <span className="bg-white p-4" style={{fontSize: "2em"}} >WHERE NATURE HAS FUN WITH COLOURS</span>
+                    <div className="text-center" style={{margin: "auto" , color:"#1B9EB2"}}>
+                        <span className="bg-white p-4" style={{fontSize: "2em", borderRadius:"10px"}} >WHERE NATURE HAS FUN WITH COLOURS</span>
                     </div>
                 </div>
             </div>

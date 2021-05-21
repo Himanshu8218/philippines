@@ -9,7 +9,7 @@ export class Footer extends Component {
                     <div className="row">
                         <div className="col-lg-5 col-md-4 col-12 p-5"  style={{WebkitTextFillColor:"#ffffff"}} >
                             <div><h2>VISIT PHILIPPINES:</h2></div>
-                            <div className="p-3">
+                            <div className="p-3 ">
                                 <p>Embassies in GCC</p>
                                 <p>info@ddpl.com</p>
                                 <p>marketing@ddpl.com</p>
