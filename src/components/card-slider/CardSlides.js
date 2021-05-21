@@ -25,6 +25,8 @@ const slideImages = [
 
 class SliderLeftArrow extends Component {
 
+
+
   render() {
     return (
       <div
@@ -71,11 +73,14 @@ export class CardSlides extends Component {
     return (
       <div style={{position: "relative", backgroundColor:"#1B9EB2"}}>
         <ScrollMenu
+          ref={this.scrollMenu}
           arrowLeft={<SliderLeftArrow/>}
           arrowRight={<SliderRightArrow/>}
           data={this.renderItems()}
           wrapperStyle={{ width: "100%" }}
           alignCenter={false}
+          wheel={false}
+          inertiaScrolling={true}
         />
       </div>
     )

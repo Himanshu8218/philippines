@@ -62,6 +62,12 @@ export class Carousel extends Component {
     };
   }
 
+  componentDidMount = () => {
+    setInterval((e) => {
+      this.goToNextSlide(null);
+    }, 4000)
+  }
+
   goToSlide(index) {
     this.setState({
       activeIndex: index
@@ -87,7 +93,7 @@ export class Carousel extends Component {
   }
 
   goToNextSlide(e) {
-    e.preventDefault();
+    if(e !== null) e.preventDefault();
 
     let index = this.state.activeIndex;
     let { items } = this.props;
