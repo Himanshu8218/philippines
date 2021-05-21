@@ -1,6 +1,7 @@
 import { Component } from "react";
-import { Carousel } from "rsuite";
+import { Carousel } from './carousel/carousel'
 import VideoCover from 'react-video-cover';
+import NavbarComponent  from './Navbar';
 
 const carouselImages = [
     { url: `${process.env.PUBLIC_URL}/images/PinkSandBeach1.jpg`, name: "Pink Sand" },
@@ -14,23 +15,24 @@ export class Header extends Component {
 
     render = () => {
         return (
-            <div>
+            <div style={{position: "relative"}}>
+                <NavbarComponent/>
                 <div>
                     <div>
                         <div style={{
                             width: '100%',
-                            height: '50vh',
+                            height: '60vh',
                             overflow: 'hidden',
                         }}>
                             <VideoCover videoOptions={{ src: `${process.env.PUBLIC_URL}/images/logo_animation.mp4` , autoPlay: true, loop: true }} />
                         </div>
                     </div>
                     <div>
-                        <Carousel autoplay className="custom-slider" placement="left" shape={null}>
-                            {carouselImages.map((image, index) => (
+                        <Carousel items={carouselImages}>
+                            {(image, index) => (
                                 <div key={index} style={{
                                     width: '100%',
-                                    height: '50vh',
+                                    height: '60vh',
                                     backgroundImage: `url(${image.url})`,
                                     backgroundSize: 'cover',
                                     backgroundPosition: "center"
@@ -43,13 +45,13 @@ export class Header extends Component {
                                         </div>
                                     </div>
                                 </div>
-                            ))}
+                            )}
                         </Carousel>
                     </div>
                 </div>
                 <div style={{ position: "absolute", top: "47%", width: "100%" }}>
                     <div className="text-center" style={{margin: "auto" , color:"#1B9EB2"}}>
-                        <span className="bg-white p-4" style={{fontSize: "2em", borderRadius:"10px"}} >WHERE NATURE HAS FUN WITH COLOURS</span>
+                        <span className="bg-white p-4" style={{fontSize: "2em", borderRadius:"10px", boxShadow:"#44444444 5px 8px"}} >WHERE NATURE HAS FUN WITH COLOURS</span>
                     </div>
                 </div>
             </div>
