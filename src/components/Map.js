@@ -2,7 +2,7 @@ import { Component } from "react";
 import { Icon } from "rsuite";
 
 const features = [
-    { icon: "file-code-o", title: "Adventure" },
+    { icon: "odnoklassniki", title: "Adventure" },
     { icon: "ship", title: "Island Life" },
     { icon: "fort-awesome", title: " Attractions" },
     { icon: "gift", title: " Festivals" },
@@ -38,9 +38,9 @@ export class Map extends Component {
             <div>
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-7 col-md-9 col-12">
-                            <h1> EXPLORE THE FUN </h1>
-                            <p> A country that is blessed by nature, the Philippines has a lot to offer.
+                        <div className="col-lg-7 col-md-9 col-12 p-5">
+                            <h1 className="" style={{WebkitTextFillColor:"#1B9EB2"}}> EXPLORE THE FUN </h1>
+                            <p className="" style={{WebkitTextFillColor:"#1B9EB2"}}> A country that is blessed by nature, the Philippines has a lot to offer.
                 Explore the why, how and when of visiting the most exciting spot on this side of the planet.</p>
                         </div>
                     </div>

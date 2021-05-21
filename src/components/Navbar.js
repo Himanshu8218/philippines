@@ -6,7 +6,7 @@ export class NavbarComponent extends Component {
     render = () => {
         return (
             <div>
-                <Navbar style={{background: "transparent", position: "absolute", width: "100%"}}>
+                <Navbar style={{ background: "transparent", position: "absolute", width: "100%" }}>
                     <div className="container">
                         <Navbar.Body>
                             <Nav className="text-white">
@@ -15,7 +15,7 @@ export class NavbarComponent extends Component {
                                 <Nav.Item eventKey="3"><Icon icon="search" className="text-white" /></Nav.Item>
                             </Nav>
                             <Nav pullRight>
-                                <Nav.Item ><img src="/images/logo.png" className="img-fluid" style={{width: "80px"}}/></Nav.Item>
+                                <Nav.Item ><img src="${process.env.PUBLIC_URL}/images/BlackSandBeach.jpg" className="img-fluid" style={{ width: "80px" }} /></Nav.Item>
                             </Nav>
                         </Navbar.Body>
                     </div>
