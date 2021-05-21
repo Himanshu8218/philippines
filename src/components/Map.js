@@ -2,18 +2,18 @@ import { Component } from "react";
 import { Icon } from "rsuite";
 
 const features = [
-    { icon: "odnoklassniki", title: "Adventure" },
-    { icon: "ship", title: "Island Life" },
-    { icon: "fort-awesome", title: " Attractions" },
-    { icon: "gift", title: " Festivals" },
-    { icon: "shopping-bag", title: "Shopping" },
-    { icon: "glass", title: " Entertainment " },
-    { icon: "handshake-o", title: "Travel Partners" },
-    { icon: "camera", title: "Video & Pics" },
-    { icon: "info", title: "Information" },
-    { icon: "heartbeat", title: "Health" },
-    { icon: "plane", title: "Transportation" },
-    { icon: "cog", title: "Halaal Itineraries" }
+    { url: `${process.env.PUBLIC_URL}/images/icons/Adventure.png` },
+    { url: `${process.env.PUBLIC_URL}/images/icons/Beaches.png` },
+    { url: `${process.env.PUBLIC_URL}/images/icons/Attractions.png` },
+    { url: `${process.env.PUBLIC_URL}/images/icons/culture.png` },
+    { url: `${process.env.PUBLIC_URL}/images/icons/Shopping.png` },
+    { url: `${process.env.PUBLIC_URL}/images/icons/Entertainment.png` },
+    { url: `${process.env.PUBLIC_URL}/images/icons/Travel Agents.png` },
+    { url: `${process.env.PUBLIC_URL}/images/icons/Pictures.png` },
+    { url: `${process.env.PUBLIC_URL}/images/icons/Info.png` },
+    { url: `${process.env.PUBLIC_URL}/images/icons/Travel Advisory.png` },
+    { url: `${process.env.PUBLIC_URL}/images/icons/Transportation.png` },
+    { url: `${process.env.PUBLIC_URL}/images/icons/itinerary.png` }
 ]
 
 export class Map extends Component {
@@ -23,10 +23,7 @@ export class Map extends Component {
             return (
                 <div className="mb-3 mt-3 col-md-3 col-4 text-center">
                     <div style={{ width: "100px" }}>
-                        <div className="p-2 feature-icon-item" style={{ backgroundColor: "#1B9EB2", borderRadius: "50%", height: "100px", }}>
-                            <Icon icon={feature.icon} size="4x" style={{ marginTop: "15px", color: "#ffffff" }} />
-                        </div>
-                        <div className="mt-2 text-black">{feature.title}</div>
+                        <img src={feature.url} className="img-fluid mt-2 feature-icon-item" />
                     </div>
                 </div>
             )
@@ -50,7 +47,7 @@ export class Map extends Component {
                         </div>
                         <div className="col-md-4 col-12">
                             <div className="mt-5">
-                                <img className="img-fluid" src={`${process.env.PUBLIC_URL}/images/map2.png`}></img>
+                                <img className="img-fluid" src={`${process.env.PUBLIC_URL}/images/maps3.svg`}></img>
                             </div>
                         </div>
                     </div>

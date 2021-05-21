@@ -9,18 +9,18 @@ import './style.scss'
 
 // list of items
 const slideImages = [
-  { url: `${process.env.PUBLIC_URL}/images/1.jpg`, name: "Pink Sand" },
-  { url: `${process.env.PUBLIC_URL}/images/2.jpg`, name: "Pink Sand" },
-  { url: `${process.env.PUBLIC_URL}/images/3.jpg`, name: "Pink Sand" },
   { url: `${process.env.PUBLIC_URL}/images/4.jpg`, name: "Pink Sand" },
-  { url: `${process.env.PUBLIC_URL}/images/5.jpg`, name: "Pink Sand" },
-  { url: `${process.env.PUBLIC_URL}/images/6.jpg`, name: "Pink Sand" },
+  { url: `${process.env.PUBLIC_URL}/images/3.jpg`, name: "Pink Sand" },
+  { url: `${process.env.PUBLIC_URL}/images/11.jpg`, name: "Pink Sand" },
   { url: `${process.env.PUBLIC_URL}/images/7.jpg`, name: "Pink Sand" },
+  { url: `${process.env.PUBLIC_URL}/images/1.jpg`, name: "Pink Sand" },
+  { url: `${process.env.PUBLIC_URL}/images/12.jpg`, name: "Pink Sand" },
+  { url: `${process.env.PUBLIC_URL}/images/10.jpg`, name: "Pink Sand" },
   { url: `${process.env.PUBLIC_URL}/images/8.jpg`, name: "Pink Sand" },
   { url: `${process.env.PUBLIC_URL}/images/9.jpg`, name: "Pink Sand" },
-  { url: `${process.env.PUBLIC_URL}/images/10.jpg`, name: "Pink Sand" },
-  { url: `${process.env.PUBLIC_URL}/images/11.jpg`, name: "Pink Sand" },
-  { url: `${process.env.PUBLIC_URL}/images/12.jpg`, name: "Pink Sand" },
+  { url: `${process.env.PUBLIC_URL}/images/5.jpg`, name: "Pink Sand" },
+  { url: `${process.env.PUBLIC_URL}/images/6.jpg`, name: "Pink Sand" },
+  { url: `${process.env.PUBLIC_URL}/images/2.jpg`, name: "Pink Sand" },
 ]
 
 class SliderLeftArrow extends Component {

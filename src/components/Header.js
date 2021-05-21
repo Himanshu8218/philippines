@@ -21,7 +21,7 @@ export class Header extends Component {
                     <div>
                         <div style={{
                             width: '100%',
-                            height: '60vh',
+                            height: '70vh',
                             overflow: 'hidden',
                         }}>
                             <VideoCover videoOptions={{ src: `${process.env.PUBLIC_URL}/images/logo_animation.mp4` , autoPlay: true, loop: true }} />
@@ -49,7 +49,7 @@ export class Header extends Component {
                         </Carousel>
                     </div>
                 </div>
-                <div style={{ position: "absolute", top: "47%", width: "100%" }}>
+                <div style={{ position: "absolute", top: "52%", width: "100%" }}>
                     <div className="text-center" style={{margin: "auto" , color:"#1B9EB2"}}>
                         <span className="bg-white p-4" style={{fontSize: "2em", borderRadius:"10px", boxShadow:"#44444444 5px 8px"}} >WHERE NATURE HAS FUN WITH COLOURS</span>
                     </div>
