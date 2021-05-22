@@ -47,7 +47,7 @@ export class Map extends Component {
                         </div>
                         <div className="col-md-5 col-12">
                             <div className="mt-5 p-md-1 p-lg-3 p-xl-5">
-                                <img className="img-fluid" src={`${process.env.PUBLIC_URL}/images/Maps3.svg`}></img>
+                                <img className="img-fluid" src={`${process.env.PUBLIC_URL}/images/map4.svg`}></img>
                             </div>
                         </div>
                     </div>
