@@ -2,18 +2,18 @@ import { Component } from "react";
 import { Icon } from "rsuite";
 
 const features = [
-    { url: `${process.env.PUBLIC_URL}/images/icons/Adventure.png` },
-    { url: `${process.env.PUBLIC_URL}/images/icons/Beaches.png` },
-    { url: `${process.env.PUBLIC_URL}/images/icons/Attractions.png` },
-    { url: `${process.env.PUBLIC_URL}/images/icons/Culture.png` },
-    { url: `${process.env.PUBLIC_URL}/images/icons/Shopping.png` },
-    { url: `${process.env.PUBLIC_URL}/images/icons/Entertainment.png` },
-    { url: `${process.env.PUBLIC_URL}/images/icons/Travel Agents.png` },
-    { url: `${process.env.PUBLIC_URL}/images/icons/Pictures.png` },
-    { url: `${process.env.PUBLIC_URL}/images/icons/Info.png` },
-    { url: `${process.env.PUBLIC_URL}/images/icons/Travel Advisory.png` },
-    { url: `${process.env.PUBLIC_URL}/images/icons/Transportation.png` },
-    { url: `${process.env.PUBLIC_URL}/images/icons/Itinerary.png` }
+    { url: `${process.env.PUBLIC_URL}/images/icons/Adventure.svg` },
+    { url: `${process.env.PUBLIC_URL}/images/icons/Beaches.svg` },
+    { url: `${process.env.PUBLIC_URL}/images/icons/Attractions.svg` },
+    { url: `${process.env.PUBLIC_URL}/images/icons/Culture.svg` },
+    { url: `${process.env.PUBLIC_URL}/images/icons/Shopping.svg` },
+    { url: `${process.env.PUBLIC_URL}/images/icons/Entertainment.svg` },
+    { url: `${process.env.PUBLIC_URL}/images/icons/Travel Agents.svg` },
+    { url: `${process.env.PUBLIC_URL}/images/icons/Pictures.svg` },
+    { url: `${process.env.PUBLIC_URL}/images/icons/Info.svg` },
+    { url: `${process.env.PUBLIC_URL}/images/icons/Travel Advisory.svg` },
+    { url: `${process.env.PUBLIC_URL}/images/icons/Transportation.svg` },
+    { url: `${process.env.PUBLIC_URL}/images/icons/Itinerary.svg` }
 ]
 
 export class Map extends Component {
@@ -23,7 +23,7 @@ export class Map extends Component {
             return (
                 <div className="mb-3 mt-3 col-4 col-md-3">
                     <div style={{width: "100%" }}>
-                        <img src={feature.url} className="img-fluid mt-2 feature-icon-item" />
+                        <img src={feature.url} className="mt-2 feature-icon-item" />
                     </div>
                 </div>
             )
