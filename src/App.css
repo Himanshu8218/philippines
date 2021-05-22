@@ -16,3 +16,53 @@ body {
   cursor: pointer;
 }
 
+.card-slide-item{
+  height: 100vw;
+  width: 100vw;
+  background-color: "#1B9EB2";
+}
+
+.header-heading {
+  font-size: 1.5em;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  .card-slide-item{
+    height: 68vw;
+    width: 50vw;
+    background-color: "#1B9EB2";
+  }
+
+  .header-heading {
+    font-size: 1.8em;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .card-slide-item{
+    height: 45vw;
+    width: 33vw;
+    background-color: "#1B9EB2";
+  }
+
+  .header-heading {
+    font-size: 2em;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+}

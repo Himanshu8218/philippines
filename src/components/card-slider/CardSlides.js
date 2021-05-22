@@ -56,7 +56,7 @@ export class CardSlides extends Component {
   renderItems = () => {
     return slideImages.map((item, index) => {
       return (
-        <div style={{ width: "33vw", height: "40vw", backgroundImage: `url(${item.url})`, backgroundSize: "cover", backgroundPosition: "center", backgroundColor: "#1B9EB2" }} key={index}>
+        <div className="card-slide-item" style={{ backgroundImage: `url(${item.url})`, backgroundSize: "cover", backgroundPosition: "center"}} key={index}>
           <div className="p-3" style={{ width: "100%", height: "100%" }}>
             <div style={{ borderColor: "#ffffff", position: "relative", borderStyle: "solid", borderWidth: "2px", borderRadius: "10px", width: "100%", height: "100%" }}>
               <div className="p-4 text-white" style={{ position: "absolute", bottom: 0, left: 0 }} >

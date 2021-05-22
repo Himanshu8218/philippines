@@ -5,22 +5,24 @@ export default class NavbarComponent extends Component {
     render = () => {
         return (
             <div style={{ background: "transparent", position: "absolute", width: "100%" }}>
-                <Navbar style={{ background: "transparent" }}>
-                   
-                        <div className="container">
-                            <Navbar.Body>
-                                <Nav className="text-white">
-                                    <Nav.Item eventKey="1"><Icon icon="bars" className="text-white" /></Nav.Item>
-                                    <Nav.Item eventKey="2"><span className="text-white">EN | AR</span></Nav.Item>
-                                    <Nav.Item eventKey="3"><Icon icon="search" className="text-white" /></Nav.Item>
-                                </Nav>
-                                <Nav pullRight>
-                                    <Nav.Item ><img src={`${process.env.PUBLIC_URL}/images/logo.png`} className="img-fluid" style={{ width: "90px" }} /></Nav.Item>
-                                </Nav>
-                            </Navbar.Body>
+                <div style={{ background: "transparent" }}>
+                    <div className="container pt-3 pb-2">
+                        <div className="row justify-content-around align-items-center">
+                            <div className="col-auto text-white">
+                                <div className="row">
+                                    <div className="col-auto"><Icon icon="bars" className="text-white" /></div>
+                                    <div className="col-auto"><span className="text-white">EN | AR</span></div>
+                                    <div className="col-auto"><Icon icon="search" className="text-white" /></div>
+                                </div>
+                            </div>
+                            <div className="col-auto">
+                                <div ><img src={`${process.env.PUBLIC_URL}/images/logo.png`} className="img-fluid" style={{ width: "90px" }} /></div>
+                            </div>
+                            <div></div>
                         </div>
-                </Navbar>
-                <div className="bg-white mt-2" style={{paddingTop: "1px"}}></div>
+                    </div>
+                </div>
+                <div className="bg-white mt-2" style={{ paddingTop: "1px" }}></div>
             </div>
         )
     }

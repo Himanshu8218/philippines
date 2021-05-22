@@ -54,10 +54,22 @@ ul {
   }
 
   &--left {
-    right: 10%;
+    right: 20%;
   }
 
   &--right {
-    right: 6%;
+    right: 10%;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel__arrow { 
+    &--left {
+      right: 10%;
+    }
+
+    &--right {
+      right: 6%;
+    }
   }
 }

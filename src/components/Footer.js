@@ -4,12 +4,12 @@ import { Nav, Navbar, Icon } from "rsuite";
 export class Footer extends Component {
     render = () => {
         return (
-            <div >
-                <div className="container-fluid" style={{ backgroundColor: "#1B9EB2" }} >
-                    <div className="row">
-                        <div className="col-lg-5 col-md-4 col-12 p-5" style={{ WebkitTextFillColor: "#ffffff" }} >
-                            <div><h3>VISIT PHILIPPINES:</h3></div>
-                            <div className="p-3" style={{ WebkitTextFillColor: "#A7D1E1" }}>
+            <div style={{ backgroundColor: "#1B9EB2" }} >
+                <div className="container">
+                    <div className="row pb-3 pt-3">
+                        <div className="col-lg-5 col-md-4 col-12 pt-3" style={{ WebkitTextFillColor: "#ffffff" }} >
+                            <div><h4>VISIT PHILIPPINES</h4></div>
+                            <div className="mt-2" style={{ WebkitTextFillColor: "#A7D1E1" }}>
                                 <p>Embassies in GCC</p>
                                 <p>info@ddpl.com</p>
                                 <p>marketing@ddpl.com</p>
@@ -20,9 +20,9 @@ export class Footer extends Component {
                         </div>
                         <div className="col-lg-7 col-md-8 col-12">
                             <div className="row">
-                                <div className="col-md-4 col-12 pt-5" style={{ WebkitTextFillColor: "#ffffff" }}>
+                                <div className="col-md-4 col-12 pt-3" style={{ WebkitTextFillColor: "#ffffff" }}>
                                     <div><h3>More Info</h3></div>
-                                    <div className="p-3" style={{ WebkitTextFillColor: "#A7D1E1" }}>
+                                    <div className="mt-2" style={{ WebkitTextFillColor: "#A7D1E1" }}>
                                         <p>Hotels</p>
                                         <p>Travel Agents</p>
                                         <p>Gastronomy</p>
@@ -30,9 +30,8 @@ export class Footer extends Component {
                                         <p>Statistics</p>
                                     </div>
                                 </div>
-                                <div className="col-md-4 col-12" style={{ WebkitTextFillColor: "#A7D1E1" }}>
-                                    <div><h2>    </h2></div>
-                                    <div className="p-5"><br></br><br></br><br></br>
+                                <div className="col-md-4 col-12 pt-md-5">
+                                    <div className="mt-2 pt-md-2" style={{ WebkitTextFillColor: "#A7D1E1" }}>
                                         <p>Press Center</p>
                                         <p>Regenerative Tourism</p>
                                         <p>Medical Tourism</p>
@@ -40,9 +39,9 @@ export class Footer extends Component {
                                         <p>Retirement</p>
                                     </div>
                                 </div>
-                                <div className="col-md-4 col-12 pt-5" style={{ WebkitTextFillColor: "#ffffff" }}>
+                                <div className="col-md-4 col-12 pt-3" style={{ WebkitTextFillColor: "#ffffff" }}>
                                     <div><h3>Social</h3></div>
-                                    <div className="p-3" style={{ WebkitTextFillColor: "#A7D1E1" }}>
+                                    <div className="mt-2" style={{ WebkitTextFillColor: "#A7D1E1" }}>
                                         <p>Instagram</p>
                                         <p>Youtube</p>
                                         <p>Facebook</p>
@@ -54,28 +53,23 @@ export class Footer extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="bg-white mt-2" style={{paddingTop: "1px" }}></div>
-                    <div className="container" style={{ WebkitTextFillColor: "#A7D1E1" }}>
-                        <Navbar className=""style={{ backgroundColor: "#1B9EB2" }}>
-                            
-                            <Navbar.Body>
-                                <Nav>
-                                    <Nav.Item  >Home</Nav.Item>
-                                    <Nav.Item>Privacy Policy</Nav.Item>
-                                    <Nav.Item>Site Map</Nav.Item>
-                                    <Nav.Item>Terms & Condition</Nav.Item>
-                                </Nav>
-                                <Nav pullRight>
-                                    <Nav.Item icon={<Icon icon="universal-access" />} >All rights reserved</Nav.Item>
-                                </Nav>
-                            </Navbar.Body>
-                        </Navbar>
+                </div>
+
+                <div className="bg-white mt-2" style={{ paddingTop: "1px" }}></div>
+                <div className="container" style={{ WebkitTextFillColor: "#A7D1E1" }}>
+                    <div className="row pt-2 pb-4 justify-content-between" style={{ backgroundColor: "#1B9EB2" }}>
+                        <div className="col-md-auto col-12 mt-2">
+                            <div className="row">
+                                <div className="col-md-auto col-12 mt-2">Home</div>
+                                <div className="col-md-auto col-12 mt-2">Privacy Policy</div>
+                                <div className="col-md-auto col-12 mt-2">Site Map</div>
+                                <div className="col-md-auto col-12 mt-2">Terms & Condition</div>
+                            </div>
+                        </div>
+                        <div className="col-md-auto col-12 mt-2"><Icon icon="universal-access" /> All rights reserved</div>
                     </div>
-                    <hr />
                 </div>
             </div>
-
-
         )
     }
 }

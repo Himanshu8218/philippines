@@ -49,9 +49,11 @@ export class Header extends Component {
                         </Carousel>
                     </div>
                 </div>
-                <div style={{ position: "absolute", top: "52%", width: "100%" }}>
-                    <div className="text-center" style={{ margin: "auto", color: "#1B9EB2" }}>
-                        <span className="bg-white p-4" style={{ fontSize: "2em", borderRadius: "10px", boxShadow: "#44444422 5px 5px", fontWeight: 'bold' }} >WHERE NATURE HAS FUN WITH COLOURS</span>
+                <div style={{ position: "absolute", top: "50%", bottom: "50%", width: "100%" }}>
+                    <div className="row justify-content-center" style={{ margin: "auto", color: "#1B9EB2" }}>
+                        <div className="col-auto">
+                            <div className="bg-white text-center p-4 header-heading" style={{borderRadius: "10px", boxShadow: "#44444422 5px 5px", fontWeight: 'bold' }} >WHERE NATURE HAS FUN WITH COLOURS</div>
+                        </div>
                     </div>
                 </div>
             </div>

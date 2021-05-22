@@ -21,8 +21,8 @@ export class Map extends Component {
     renderFeatureIcons = () => {
         return features.map((feature, index) => {
             return (
-                <div className="mb-3 mt-3 col-md-3 col-4 text-center">
-                    <div style={{ width: "100px" }}>
+                <div className="mb-3 mt-3 col-4 col-md-3">
+                    <div style={{width: "100%" }}>
                         <img src={feature.url} className="img-fluid mt-2 feature-icon-item" />
                     </div>
                 </div>
@@ -34,19 +34,19 @@ export class Map extends Component {
         return (
             <div>
                 <div className="container mb-5">
-                    <div className="row justify-content-between" >
+                    <div className="row justify-content-between align-items-center" >
                         <div className="col-md-7 col-12">
                             <div className="pt-5 pb-5">
                                 <h1 className="" style={{ color: "#1B9EB2" }}> EXPLORE THE FUN </h1>
-                                <p className="" style={{ color: "#1B9EB2" }}> A country that is blessed by nature, the Philippines has a lot to offer.
+                                <p className="mt-2" style={{ color: "#1B9EB2" }}> A country that is blessed by nature, the Philippines has a lot to offer.
                 Explore the why, how and when of visiting the most exciting spot on this side of the planet.</p>
                             </div>
-                            <div className="row mt-4 mb-4">
+                            <div className="row no-gutters">
                                 {this.renderFeatureIcons()}
                             </div>
                         </div>
-                        <div className="col-md-4 col-12">
-                            <div className="mt-5">
+                        <div className="col-md-5 col-12">
+                            <div className="mt-5 p-md-1 p-lg-3 p-xl-5">
                                 <img className="img-fluid" src={`${process.env.PUBLIC_URL}/images/Maps3.svg`}></img>
                             </div>
                         </div>
