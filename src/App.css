@@ -43,7 +43,7 @@ body {
 @media (min-width: 768px) { 
   .card-slide-item{
     height: 45vw;
-    width: 33vw;
+    width: 33.33vw;
     background-color: "#1B9EB2";
   }
 

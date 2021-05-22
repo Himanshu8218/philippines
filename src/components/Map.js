@@ -34,7 +34,7 @@ export class Map extends Component {
         return (
             <div>
                 <div className="container mb-5">
-                    <div className="row justify-content-between align-items-center" >
+                    <div className="row justify-content-evenly align-items-center" >
                         <div className="col-md-7 col-12">
                             <div className="pt-5 pb-5">
                                 <h1 className="" style={{ color: "#1B9EB2" }}> EXPLORE THE FUN </h1>
