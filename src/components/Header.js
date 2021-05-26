@@ -24,7 +24,7 @@ export class Header extends Component {
                             height: '70vh',
                             overflow: 'hidden',
                         }}>
-                            <VideoCover autoPlay videoOptions={{ src: `${process.env.PUBLIC_URL}/images/logo-video.mp4`, autoPlay:true, playsInline: true}} />
+                            <VideoCover autoPlay videoOptions={{ src: `${process.env.PUBLIC_URL}/images/logo-video.mp4`, autoPlay:true, muted: true}} />
                         </div>
                     </div>
                     <div>
