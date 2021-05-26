@@ -16,6 +16,7 @@ export default class App extends Component {
           <Header />
           <Map />
           <CardSlides />
+        
           
           <Footer />
         </Scrollbars>

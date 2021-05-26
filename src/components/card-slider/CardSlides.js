@@ -27,8 +27,10 @@ class SliderLeftArrow extends Component {
 
 
 
+
   render() {
     return (
+      
       <div
         className="slider__arrow slider__arrow--left"
       >
@@ -82,7 +84,14 @@ export class CardSlides extends Component {
           wheel={false}
           inertiaScrolling={true}
         />
-      </div>
+          <div style={{ position: "absolute", top: "-5%", width: "100%" }}>
+                    <div className="row justify-content-center" style={{ color: "#1B9EB2", margin: "auto",' --bs-gutter-x': '6.5rem' }}>
+                        <div className="col-auto" style={{ paddingLeft: 0, }}>
+                            <div className=" text-center p-4 ps-5 pe-5 header-heading text-white" style={{borderRadius: "10px", boxShadow: "#44444422 5px 5px",  backgroundColor: "#1B9EB2", fontWeight: 'bold' }} >WHERE NATURE HAS FUN WITH COLOURS</div>
+                        </div>
+                    </div>
+                </div>
+          </div>
     )
   }
 }

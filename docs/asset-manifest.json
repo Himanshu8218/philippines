@@ -1,28 +1,40 @@
 {
   "files": {
-    "main.css": "/philippines/static/css/main.ca90ef0d.chunk.css",
-    "main.js": "/philippines/static/js/main.fe3bb733.chunk.js",
-    "main.js.map": "/philippines/static/js/main.fe3bb733.chunk.js.map",
+    "main.css": "/philippines/static/css/main.026e5298.chunk.css",
+    "main.js": "/philippines/static/js/main.213f3786.chunk.js",
+    "main.js.map": "/philippines/static/js/main.213f3786.chunk.js.map",
     "runtime-main.js": "/philippines/static/js/runtime-main.026b1560.js",
     "runtime-main.js.map": "/philippines/static/js/runtime-main.026b1560.js.map",
     "static/css/2.809e1753.chunk.css": "/philippines/static/css/2.809e1753.chunk.css",
-    "static/js/2.c124e753.chunk.js": "/philippines/static/js/2.c124e753.chunk.js",
-    "static/js/2.c124e753.chunk.js.map": "/philippines/static/js/2.c124e753.chunk.js.map",
+    "static/js/2.ec0052af.chunk.js": "/philippines/static/js/2.ec0052af.chunk.js",
+    "static/js/2.ec0052af.chunk.js.map": "/philippines/static/js/2.ec0052af.chunk.js.map",
     "static/js/3.40449b76.chunk.js": "/philippines/static/js/3.40449b76.chunk.js",
     "static/js/3.40449b76.chunk.js.map": "/philippines/static/js/3.40449b76.chunk.js.map",
     "index.html": "/philippines/index.html",
     "static/css/2.809e1753.chunk.css.map": "/philippines/static/css/2.809e1753.chunk.css.map",
-    "static/css/main.ca90ef0d.chunk.css.map": "/philippines/static/css/main.ca90ef0d.chunk.css.map",
-    "static/js/2.c124e753.chunk.js.LICENSE.txt": "/philippines/static/js/2.c124e753.chunk.js.LICENSE.txt",
+    "static/css/main.026e5298.chunk.css.map": "/philippines/static/css/main.026e5298.chunk.css.map",
+    "static/js/2.ec0052af.chunk.js.LICENSE.txt": "/philippines/static/js/2.ec0052af.chunk.js.LICENSE.txt",
+    "static/media/Adventure.6254bf23.svg": "/philippines/static/media/Adventure.6254bf23.svg",
+    "static/media/Attractions.4226dca0.svg": "/philippines/static/media/Attractions.4226dca0.svg",
+    "static/media/Beaches.6a54593f.svg": "/philippines/static/media/Beaches.6a54593f.svg",
+    "static/media/Culture.117cbae6.svg": "/philippines/static/media/Culture.117cbae6.svg",
+    "static/media/Entertainment.1f042dd7.svg": "/philippines/static/media/Entertainment.1f042dd7.svg",
+    "static/media/Info.a438c3d6.svg": "/philippines/static/media/Info.a438c3d6.svg",
+    "static/media/Itinerary.b87ee8d0.svg": "/philippines/static/media/Itinerary.b87ee8d0.svg",
+    "static/media/Pictures.373e71a6.svg": "/philippines/static/media/Pictures.373e71a6.svg",
+    "static/media/Shopping.24e6e233.svg": "/philippines/static/media/Shopping.24e6e233.svg",
+    "static/media/Transportation.ca29b554.svg": "/philippines/static/media/Transportation.ca29b554.svg",
     "static/media/left-icon.257fe26b.svg": "/philippines/static/media/left-icon.257fe26b.svg",
     "static/media/left-icon.5cdfc497.svg": "/philippines/static/media/left-icon.5cdfc497.svg",
-    "static/media/right-icon.3863a1dd.svg": "/philippines/static/media/right-icon.3863a1dd.svg"
+    "static/media/right-icon.3863a1dd.svg": "/philippines/static/media/right-icon.3863a1dd.svg",
+    "static/media/travel-advisory.9aed501f.svg": "/philippines/static/media/travel-advisory.9aed501f.svg",
+    "static/media/travel-agents.4ce6edb8.svg": "/philippines/static/media/travel-agents.4ce6edb8.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.026b1560.js",
     "static/css/2.809e1753.chunk.css",
-    "static/js/2.c124e753.chunk.js",
-    "static/css/main.ca90ef0d.chunk.css",
-    "static/js/main.fe3bb733.chunk.js"
+    "static/js/2.ec0052af.chunk.js",
+    "static/css/main.026e5298.chunk.css",
+    "static/js/main.213f3786.chunk.js"
   ]
 }
