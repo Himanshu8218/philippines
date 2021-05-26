@@ -41,7 +41,7 @@ export class Map extends Component {
 
     render = () => {
         return (
-            <div  style={{ position: "relative" }}>
+            <div  style={{ position: "relative"  }}>
                 <div className="container mb-5">
                     <div className="row justify-content-evenly align-items-center" >
                         <div className="col-md-7 col-12 ">
@@ -50,7 +50,7 @@ export class Map extends Component {
                                 <p className="mt-2" style={{ color: "#1B9EB2" }}> A country that is blessed by nature, the Philippines has a lot to offer.
                 Explore the why, how and when of visiting the most exciting spot on this side of the planet.</p>
                             </div>
-                            <div className="row no-gutters" style={{'--bs-gutter-x': '-6.8rem'}}>
+                            <div className="row no-gutters " style={{'--bs-gutter-x': '-7rem', marginRight: "3rem"}}>
                                 {this.renderFeatureIcons()}
                             </div>
                         </div>

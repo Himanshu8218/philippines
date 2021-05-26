@@ -22,7 +22,7 @@ export default class NavbarComponent extends Component {
                         </div>
                     </div>
                 </div>
-                <div className=" mt-2 " style={{ paddingTop: "1px", backgroundColor: '#A7D1E1' }}></div>
+                <div className=" mt-2 " style={{ paddingTop: "1px", backgroundColor: '#DDDDDD' }}></div>
             </div>
         )
     }
