@@ -2,6 +2,7 @@ import { Component } from "react";
 import { Carousel } from './carousel/carousel'
 import VideoCover from 'react-video-cover';
 import NavbarComponent from './Navbar';
+import { ControlLabel, Icon, IconButton } from "rsuite";
 
 const carouselImages = [
     { url: `${process.env.PUBLIC_URL}/images/PinkSandBeach1.jpg`, name: "Pink Sand" },
@@ -12,19 +13,41 @@ const carouselImages = [
 ]
 
 export class Header extends Component {
+    state = {
+        muted: true
+    }
+
+    mute = () => {
+        if (this.state.muted == true) {
+            document.getElementById("video").muted = false;
+            this.setState({ muted: false });
+        } else {
+            document.getElementById("video").muted = true;
+            this.setState({
+                muted: true
+            });
+        }
+    }
+
+    componentDidMount = () => {
+
+    }
 
     render = () => {
         return (
             <div style={{ position: "relative" }}>
-                <NavbarComponent />
-                <div>
+                <div style={{ position: "relative" }}>
                     <div>
                         <div style={{
                             width: '100%',
                             height: '70vh',
                             overflow: 'hidden',
+                            position: "relative"
                         }}>
-                            <VideoCover autoPlay videoOptions={{ src: `${process.env.PUBLIC_URL}/images/logo-video.mp4`, autoPlay:true, muted: true}} />
+                            <video id="video" src={`${process.env.PUBLIC_URL}/images/logo-video.mp4`} autoPlay style={{ width: "100%", height: "100%", objectFit: "cover" }} muted></video>
+                            <div style={{ position: "absolute", bottom: 45, right: 20, cursor:"pointer" }} onClick={this.mute}>
+                                {this.state.muted === true? <Icon icon="volume-up" className="text-white" size="2x"></Icon>:<Icon  icon="volume-off" className="text-white" size="2x"></Icon>}
+                            </div>
                         </div>
                     </div>
                     <div>
@@ -49,10 +72,11 @@ export class Header extends Component {
                         </Carousel>
                     </div>
                 </div>
+                <NavbarComponent />
                 <div style={{ position: "absolute", top: "50%", bottom: "50%", width: "100%" }}>
-                    <div className="row justify-content-center" style={{ margin: "auto", color: "#1B9EB2",' --bs-gutter-x': '6.5rem' }}>
+                    <div className="row justify-content-center" style={{ margin: "auto", color: "#1B9EB2", ' --bs-gutter-x': '6.5rem' }}>
                         <div className="col-auto" style={{ paddingLeft: 0 }}>
-                            <div className="bg-white text-center p-4 header-heading" style={{borderRadius: "10px", boxShadow: "#44444422 5px 5px", fontWeight: 'bold' }} >WHERE NATURE HAS FUN WITH COLOURS</div>
+                            <div className="bg-white text-center p-4 header-heading" style={{ borderRadius: "10px", boxShadow: "#44444422 5px 5px", fontWeight: 'bold' }} >WHERE NATURE HAS FUN WITH COLOURS</div>
                         </div>
                     </div>
                 </div>

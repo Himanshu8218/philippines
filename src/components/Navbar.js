@@ -4,7 +4,7 @@ import { Nav, Navbar, Icon } from "rsuite";
 export default class NavbarComponent extends Component {
     render = () => {
         return (
-            <div style={{ background: "transparent", position: "absolute", width: "100%" }}>
+            <div style={{ background: "transparent", position: "absolute", width: "100%", top: 0 }}>
                 <div style={{ background: "transparent" }}>
                     <div className="container pt-3 pb-2">
                         <div className="row justify-content-between align-items-center">
