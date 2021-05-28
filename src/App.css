@@ -13,6 +13,7 @@ body {
 
 .feature-icon-item{
   color: white;
+  
 }
 
 .feature-icon-item:hover{
@@ -26,9 +27,7 @@ body {
   fill:#FFD045;
 }
 
-.feature-icon-item:hover svg path {
-  fill:#FFD045;
-}
+
 
 
 .card-slide-item{

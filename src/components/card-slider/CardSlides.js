@@ -87,7 +87,7 @@ export class CardSlides extends Component {
           <div style={{ position: "absolute", top: "-5%", width: "100%" }}>
                     <div className="row justify-content-center" style={{ color: "#1B9EB2", margin: "auto",' --bs-gutter-x': '6.5rem' }}>
                         <div className="col-auto" style={{ paddingLeft: 0, }}>
-                            <div className=" text-center p-4 ps-5 pe-5 header-heading text-white" style={{borderRadius: "10px", boxShadow: "#44444422 5px 5px",  backgroundColor: "#1B9EB2", fontWeight: 'bold' }} >Post cards from the Philippines</div>
+                            <div className=" text-center p-4 ps-5 pe-5 header-heading text-white" style={{borderRadius: "10px", boxShadow: "#44444422 5px 5px",  backgroundColor: "#1B9EB2",  fontWeight: 'bold' }} >POST CARDS FROM THE PHILIPPINES</div>
                         </div>
                     </div>
                 </div>

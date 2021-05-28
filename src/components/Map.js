@@ -36,7 +36,7 @@ const featureTitles = [
     "Shopping",
     "Entertainment",
     "Travel Partners",
-    "vidoes & Pics",
+    "Videos & Pics",
     "Information",
     "Health",
     "Transportation",
