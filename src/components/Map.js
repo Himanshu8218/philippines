@@ -52,7 +52,7 @@ export class Map extends Component {
                 <div className="mb-3 mt-3 col-4 col-md-3" key={index}>
                     <div style={{ width: "100px" }}>
                         <div className="align-items-center justify-content-center feature-icon-item" style={{ height: "100px", display: "flex", backgroundColor: "#1B9EB2", borderRadius: "50%" }}>
-                            <FeatureIcon className="feature-icon-item-image" style={{color: "#000"}} />
+                            <FeatureIcon className="feature-icon-item-image" style={{color: "#FFD045"}} />
                         </div>
                         <div className="mt-3 text-center">
                             <p>{featureTitles[index]}</p>
