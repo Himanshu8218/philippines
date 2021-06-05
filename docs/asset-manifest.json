@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/philippines/static/css/main.3e671317.chunk.css",
-    "main.js": "/philippines/static/js/main.034d8aa9.chunk.js",
-    "main.js.map": "/philippines/static/js/main.034d8aa9.chunk.js.map",
+    "main.css": "/philippines/static/css/main.c5fd3732.chunk.css",
+    "main.js": "/philippines/static/js/main.4ea78636.chunk.js",
+    "main.js.map": "/philippines/static/js/main.4ea78636.chunk.js.map",
     "runtime-main.js": "/philippines/static/js/runtime-main.026b1560.js",
     "runtime-main.js.map": "/philippines/static/js/runtime-main.026b1560.js.map",
     "static/css/2.809e1753.chunk.css": "/philippines/static/css/2.809e1753.chunk.css",
@@ -12,19 +12,19 @@
     "static/js/3.40449b76.chunk.js.map": "/philippines/static/js/3.40449b76.chunk.js.map",
     "index.html": "/philippines/index.html",
     "static/css/2.809e1753.chunk.css.map": "/philippines/static/css/2.809e1753.chunk.css.map",
-    "static/css/main.3e671317.chunk.css.map": "/philippines/static/css/main.3e671317.chunk.css.map",
+    "static/css/main.c5fd3732.chunk.css.map": "/philippines/static/css/main.c5fd3732.chunk.css.map",
     "static/js/2.5eb563ad.chunk.js.LICENSE.txt": "/philippines/static/js/2.5eb563ad.chunk.js.LICENSE.txt",
     "static/media/Bag.7deb8c08.svg": "/philippines/static/media/Bag.7deb8c08.svg",
     "static/media/Beach.bf260847.svg": "/philippines/static/media/Beach.bf260847.svg",
     "static/media/Flight.723fac3a.svg": "/philippines/static/media/Flight.723fac3a.svg",
     "static/media/Halaal.1fd8183b.svg": "/philippines/static/media/Halaal.1fd8183b.svg",
-    "static/media/Info.dfcdb84e.svg": "/philippines/static/media/Info.dfcdb84e.svg",
+    "static/media/Info.b14e29d5.svg": "/philippines/static/media/Info.b14e29d5.svg",
     "static/media/Wine-glass.e6f09866.svg": "/philippines/static/media/Wine-glass.e6f09866.svg",
     "static/media/building.2378171f.svg": "/philippines/static/media/building.2378171f.svg",
     "static/media/camera.09077b8c.svg": "/philippines/static/media/camera.09077b8c.svg",
     "static/media/carnival-mask.8bc25231.svg": "/philippines/static/media/carnival-mask.8bc25231.svg",
     "static/media/diving-googles.1f733bfe.svg": "/philippines/static/media/diving-googles.1f733bfe.svg",
-    "static/media/facemask.99373c89.svg": "/philippines/static/media/facemask.99373c89.svg",
+    "static/media/facemask.adc9538c.svg": "/philippines/static/media/facemask.adc9538c.svg",
     "static/media/hand-shake.ac192e9c.svg": "/philippines/static/media/hand-shake.ac192e9c.svg",
     "static/media/left-icon.257fe26b.svg": "/philippines/static/media/left-icon.257fe26b.svg",
     "static/media/left-icon.5cdfc497.svg": "/philippines/static/media/left-icon.5cdfc497.svg",
@@ -34,7 +34,7 @@
     "static/js/runtime-main.026b1560.js",
     "static/css/2.809e1753.chunk.css",
     "static/js/2.5eb563ad.chunk.js",
-    "static/css/main.3e671317.chunk.css",
-    "static/js/main.034d8aa9.chunk.js"
+    "static/css/main.c5fd3732.chunk.css",
+    "static/js/main.4ea78636.chunk.js"
   ]
 }
