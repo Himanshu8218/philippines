@@ -1,7 +1,7 @@
 import { Component } from "react";
 import { Nav, Navbar, Icon } from "rsuite";
 
-export class Footer extends Component {
+export class FooterComponent extends Component {
     render = () => {
         return (
             <div style={{ backgroundColor: "#1B9EB2" }} >

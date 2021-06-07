@@ -25,9 +25,6 @@ const slideImages = [
 
 class SliderLeftArrow extends Component {
 
-
-
-
   render() {
     return (
       
@@ -53,7 +50,7 @@ class SliderRightArrow extends Component {
 }
 
 
-export class CardSlides extends Component {
+export class CardSlidesComponent extends Component {
 
   renderItems = () => {
     return slideImages.map((item, index) => {

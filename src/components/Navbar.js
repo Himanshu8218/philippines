@@ -1,7 +1,7 @@
 import { Component } from "react";
 import { Nav, Navbar, Icon } from "rsuite";
 
-export default class NavbarComponent extends Component {
+export class NavbarComponent extends Component {
     render = () => {
         return (
             <div style={{ background: "transparent", position: "absolute", width: "100%", top: 0 }}>

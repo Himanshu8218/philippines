@@ -1,7 +1,5 @@
 import { Component } from "react";
-import { Carousel } from './carousel/carousel'
-import VideoCover from 'react-video-cover';
-import NavbarComponent from './Navbar';
+import { Carousel } from './carousel';
 import { ControlLabel, Icon, IconButton } from "rsuite";
 
 const carouselImages = [
@@ -12,7 +10,7 @@ const carouselImages = [
     { url: `${process.env.PUBLIC_URL}/images/BrownSandBeach.jpg`, name: "Brown Sand" },
 ]
 
-export class Header extends Component {
+export class HeaderComponent extends Component {
     state = {
         muted: true
     }
@@ -72,11 +70,10 @@ export class Header extends Component {
                         </Carousel>
                     </div>
                 </div>
-                <NavbarComponent />
                 <div style={{ position: "absolute", top: "50%", bottom: "50%", width: "100%" }}>
                     <div className="row justify-content-center" style={{ margin: "auto", color: "#1B9EB2", ' --bs-gutter-x': '6.5rem' }}>
                         <div className="col-auto" style={{ paddingLeft: 0 }}>
-                            <div className="bg-white text-center p-4 header-heading" style={{ borderRadius: "10px", boxShadow: "#44444422 5px 5px", fontWeight: 'bold' }} >WHERE NATURE HAS FUN WITH COLOURS</div>
+                            <div className="bg-white text-center p-4  header-heading" style={{ borderRadius: "10px", boxShadow: "#44444422 5px 5px", fontWeight: 'bold' }} >WHERE NATURE HAS FUN WITH COLOURS</div>
                         </div>
                     </div>
                 </div>

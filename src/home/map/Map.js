@@ -44,7 +44,7 @@ const featureTitles = [
 ]
 
 
-export class Map extends Component {
+export class MapComponent extends Component {
 
     renderFeatureIcons = () => {
         return featureIcons.map((FeatureIcon, index) => {
