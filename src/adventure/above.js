@@ -4,7 +4,7 @@ import './style.scss'
 
 
 const AboveSeaLevel = {
-    canyoneering: `${process.env.PUBLIC_URL}/Above-sea-level-img/Canyoneering.jpg`,
+    canyoneering: `${process.env.PUBLIC_URL}/Above-sea-level-img/Canyoneer.jpg`,
     hiking: `${process.env.PUBLIC_URL}/Above-sea-level-img/Hiking.jpg`,
     paragliding: `${process.env.PUBLIC_URL}/Above-sea-level-img/Paragliding.jpg`,
     skydiving: `${process.env.PUBLIC_URL}/Above-sea-level-img/Skydive.jpg`,
