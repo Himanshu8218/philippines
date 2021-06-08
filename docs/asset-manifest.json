@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/philippines/static/css/main.69fee9cd.chunk.css",
-    "main.js": "/philippines/static/js/main.4ea78636.chunk.js",
-    "main.js.map": "/philippines/static/js/main.4ea78636.chunk.js.map",
-    "runtime-main.js": "/philippines/static/js/runtime-main.026b1560.js",
-    "runtime-main.js.map": "/philippines/static/js/runtime-main.026b1560.js.map",
+    "main.css": "/philippines/static/css/main.8dc92cb5.chunk.css",
+    "main.js": "/philippines/static/js/main.cb512993.chunk.js",
+    "main.js.map": "/philippines/static/js/main.cb512993.chunk.js.map",
+    "runtime-main.js": "/philippines/static/js/runtime-main.29a418fb.js",
+    "runtime-main.js.map": "/philippines/static/js/runtime-main.29a418fb.js.map",
     "static/css/2.809e1753.chunk.css": "/philippines/static/css/2.809e1753.chunk.css",
-    "static/js/2.5eb563ad.chunk.js": "/philippines/static/js/2.5eb563ad.chunk.js",
-    "static/js/2.5eb563ad.chunk.js.map": "/philippines/static/js/2.5eb563ad.chunk.js.map",
-    "static/js/3.40449b76.chunk.js": "/philippines/static/js/3.40449b76.chunk.js",
-    "static/js/3.40449b76.chunk.js.map": "/philippines/static/js/3.40449b76.chunk.js.map",
+    "static/js/2.202b9695.chunk.js": "/philippines/static/js/2.202b9695.chunk.js",
+    "static/js/2.202b9695.chunk.js.map": "/philippines/static/js/2.202b9695.chunk.js.map",
+    "static/js/3.3c97063c.chunk.js": "/philippines/static/js/3.3c97063c.chunk.js",
+    "static/js/3.3c97063c.chunk.js.map": "/philippines/static/js/3.3c97063c.chunk.js.map",
     "index.html": "/philippines/index.html",
     "static/css/2.809e1753.chunk.css.map": "/philippines/static/css/2.809e1753.chunk.css.map",
-    "static/css/main.69fee9cd.chunk.css.map": "/philippines/static/css/main.69fee9cd.chunk.css.map",
-    "static/js/2.5eb563ad.chunk.js.LICENSE.txt": "/philippines/static/js/2.5eb563ad.chunk.js.LICENSE.txt",
+    "static/css/main.8dc92cb5.chunk.css.map": "/philippines/static/css/main.8dc92cb5.chunk.css.map",
+    "static/js/2.202b9695.chunk.js.LICENSE.txt": "/philippines/static/js/2.202b9695.chunk.js.LICENSE.txt",
     "static/media/Bag.7deb8c08.svg": "/philippines/static/media/Bag.7deb8c08.svg",
     "static/media/Beach.bf260847.svg": "/philippines/static/media/Beach.bf260847.svg",
     "static/media/Flight.723fac3a.svg": "/philippines/static/media/Flight.723fac3a.svg",
@@ -31,10 +31,10 @@
     "static/media/right-icon.3863a1dd.svg": "/philippines/static/media/right-icon.3863a1dd.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.026b1560.js",
+    "static/js/runtime-main.29a418fb.js",
     "static/css/2.809e1753.chunk.css",
-    "static/js/2.5eb563ad.chunk.js",
-    "static/css/main.69fee9cd.chunk.css",
-    "static/js/main.4ea78636.chunk.js"
+    "static/js/2.202b9695.chunk.js",
+    "static/css/main.8dc92cb5.chunk.css",
+    "static/js/main.cb512993.chunk.js"
   ]
 }

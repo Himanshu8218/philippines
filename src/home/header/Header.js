@@ -43,8 +43,8 @@ export class HeaderComponent extends Component {
                             position: "relative"
                         }}>
                             <video id="video" src={`${process.env.PUBLIC_URL}/images/logo-v.mp4`} autoPlay style={{ width: "100%", height: "100%", objectFit: "cover" }} muted></video>
-                            <div style={{ position: "absolute", bottom: 45, right: 20, cursor:"pointer" }} onClick={this.mute}>
-                                {this.state.muted === true? <Icon icon="volume-up" className="text-white" size="2x"></Icon>:<Icon  icon="volume-off" className="text-white" size="2x"></Icon>}
+                            <div style={{ position: "absolute", bottom: 45, right: 20, cursor: "pointer" }} onClick={this.mute}>
+                                {this.state.muted === true ? <Icon icon="volume-up" className="text-white" size="2x"></Icon> : <Icon icon="volume-off" className="text-white" size="2x"></Icon>}
                             </div>
                         </div>
                     </div>
@@ -78,7 +78,6 @@ export class HeaderComponent extends Component {
                     </div>
                 </div>
             </div>
-
         )
     }
 }
