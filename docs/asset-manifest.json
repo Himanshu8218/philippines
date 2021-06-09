@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/philippines/static/css/main.8dc92cb5.chunk.css",
+    "main.css": "/philippines/static/css/main.0ef57b5d.chunk.css",
     "main.js": "/philippines/static/js/main.6a8cf49f.chunk.js",
     "main.js.map": "/philippines/static/js/main.6a8cf49f.chunk.js.map",
     "runtime-main.js": "/philippines/static/js/runtime-main.29a418fb.js",
@@ -12,7 +12,7 @@
     "static/js/3.3c97063c.chunk.js.map": "/philippines/static/js/3.3c97063c.chunk.js.map",
     "index.html": "/philippines/index.html",
     "static/css/2.809e1753.chunk.css.map": "/philippines/static/css/2.809e1753.chunk.css.map",
-    "static/css/main.8dc92cb5.chunk.css.map": "/philippines/static/css/main.8dc92cb5.chunk.css.map",
+    "static/css/main.0ef57b5d.chunk.css.map": "/philippines/static/css/main.0ef57b5d.chunk.css.map",
     "static/js/2.b7bd61cb.chunk.js.LICENSE.txt": "/philippines/static/js/2.b7bd61cb.chunk.js.LICENSE.txt",
     "static/media/Bag.7deb8c08.svg": "/philippines/static/media/Bag.7deb8c08.svg",
     "static/media/Beach.bf260847.svg": "/philippines/static/media/Beach.bf260847.svg",
@@ -36,7 +36,7 @@
     "static/js/runtime-main.29a418fb.js",
     "static/css/2.809e1753.chunk.css",
     "static/js/2.b7bd61cb.chunk.js",
-    "static/css/main.8dc92cb5.chunk.css",
+    "static/css/main.0ef57b5d.chunk.css",
     "static/js/main.6a8cf49f.chunk.js"
   ]
 }
