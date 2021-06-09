@@ -4,10 +4,10 @@ import { ControlLabel, Icon, IconButton } from "rsuite";
 
 const carouselImages = [
     { url: `${process.env.PUBLIC_URL}/images/PinkSandBeach1.jpg`, name: "Pink Sand" },
-    { url: `${process.env.PUBLIC_URL}/images/BlackSandBeachCopy.jpg`, name: "Black Sand" },
+    { url: `${process.env.PUBLIC_URL}/images/BlackSandBeach3.jpg`, name: "Black Sand" },
     { url: `${process.env.PUBLIC_URL}/images/GoldSandBeach.jpg`, name: "Gold Sand" },
     { url: `${process.env.PUBLIC_URL}/images/WhiteSandBeach3.jpg`, name: "White Sand" },
-    { url: `${process.env.PUBLIC_URL}/images/BrownSandBeach.jpg`, name: "Brown Sand" },
+    { url: `${process.env.PUBLIC_URL}/images/BrownSandBeach2.jpg`, name: "Brown Sand" },
 ]
 
 export class HeaderComponent extends Component {

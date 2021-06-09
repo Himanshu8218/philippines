@@ -19,8 +19,8 @@ const slideImages = [
   { url: `${process.env.PUBLIC_URL}/images/8.jpg`, name: "Pink Sand" },
   { url: `${process.env.PUBLIC_URL}/images/9.jpg`, name: "Pink Sand" },
   { url: `${process.env.PUBLIC_URL}/images/5.jpg`, name: "Pink Sand" },
-  { url: `${process.env.PUBLIC_URL}/images/6.jpg`, name: "Pink Sand" },
-  { url: `${process.env.PUBLIC_URL}/images/2.jpg`, name: "Pink Sand" },
+  { url: `${process.env.PUBLIC_URL}/images/christ.jpg`, name: "Pink Sand" },
+  { url: `${process.env.PUBLIC_URL}/images/121.jpeg`, name: "Pink Sand" },
 ]
 
 class SliderLeftArrow extends Component {
@@ -84,7 +84,7 @@ export class CardSlidesComponent extends Component {
           <div style={{ position: "absolute", top: "-5%", width: "100%" }}>
                     <div className="row justify-content-center" style={{ color: "#1B9EB2", margin: "auto",' --bs-gutter-x': '6.5rem' }}>
                         <div className="col-auto" style={{ paddingLeft: 0, }}>
-                            <div className=" text-center p-4 ps-5 pe-5 header-heading text-white" style={{borderRadius: "10px", boxShadow: "#44444422 5px 5px",  backgroundColor: "#1B9EB2",  fontWeight: 'bold' }} >POST CARDS FROM THE PHILIPPINES</div>
+                            <div className=" text-center p-4 ps-5 pe-5 header-heading text-white" style={{borderRadius: "10px", boxShadow: "#44444422 5px 5px",  backgroundColor: "#1B9EB2",  fontWeight: 'bold' }} >POSTCARDS FROM THE PHILIPPINES</div>
                         </div>
                     </div>
                 </div>
