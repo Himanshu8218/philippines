@@ -9,14 +9,14 @@ const BelowSeaLevel = {
     fifth: `${process.env.PUBLIC_URL}/Below-img/fifth.jpg`,
 }
 
-const imageStyle = { position: "relative", backgroundSize: 'cover' }
+const imageStyle = { position: "relative", backgroundSize: 'cover', boxShadow: '0px 4px 20px rgb(0 0 0 / 30%) '}
 
 export class Below extends Component {
     render = () => {
         return (
             <div className="row m-0" style={{ height: 490, }}>
                 <div className="col-6 p-0 ps-2">
-                    <div className="row pb-2 m-0">
+                    <div className="row pb-2 m-0" style={{}}>
                         <div className='parent p-0' style={{ ...imageStyle, backgroundImage: `url(${BelowSeaLevel.first})`, height: 241 }}>
                             <div className='details'>
                                 <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%', width: '45%' }}>
@@ -74,7 +74,7 @@ export class Below extends Component {
                         </div>
 
                     </div>
-                    <div className="row pt-3 m-0" style={{ height: 528 }}>
+                    <div className="row pt-3 m-0" style={{ height: 528  }}>
                     <div className="col-7 p-0  pe-2 ">
                         <div className='parent' style={{ ...imageStyle, backgroundImage: `url(${BelowSeaLevel.fourth})`, height: 512 }}>
                             <div className='details'>

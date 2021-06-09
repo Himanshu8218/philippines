@@ -9,7 +9,7 @@ const AtSeaLevel = {
     surfing: `${process.env.PUBLIC_URL}/At-sea-level-img/Surfing.jpg`,
 }
 
-const imageStyle = { position: "relative", backgroundSize: 'cover' }
+const imageStyle = { position: "relative", backgroundSize: 'cover', boxShadow: '0px 4px 20px rgb(0 0 0 / 30%) ' }
 
 export class At extends Component {
     render = () => {

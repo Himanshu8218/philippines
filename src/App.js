@@ -28,7 +28,6 @@ export default class App extends Component {
             </Route>
           </Switch>
           <NavbarComponent />
-          <FooterComponent />
         </Scrollbars>
       </Router>
     );
