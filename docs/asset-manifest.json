@@ -1,24 +1,26 @@
 {
   "files": {
     "main.css": "/philippines/static/css/main.8dc92cb5.chunk.css",
-    "main.js": "/philippines/static/js/main.cf6b4b1d.chunk.js",
-    "main.js.map": "/philippines/static/js/main.cf6b4b1d.chunk.js.map",
+    "main.js": "/philippines/static/js/main.6a8cf49f.chunk.js",
+    "main.js.map": "/philippines/static/js/main.6a8cf49f.chunk.js.map",
     "runtime-main.js": "/philippines/static/js/runtime-main.29a418fb.js",
     "runtime-main.js.map": "/philippines/static/js/runtime-main.29a418fb.js.map",
     "static/css/2.809e1753.chunk.css": "/philippines/static/css/2.809e1753.chunk.css",
-    "static/js/2.202b9695.chunk.js": "/philippines/static/js/2.202b9695.chunk.js",
-    "static/js/2.202b9695.chunk.js.map": "/philippines/static/js/2.202b9695.chunk.js.map",
+    "static/js/2.b7bd61cb.chunk.js": "/philippines/static/js/2.b7bd61cb.chunk.js",
+    "static/js/2.b7bd61cb.chunk.js.map": "/philippines/static/js/2.b7bd61cb.chunk.js.map",
     "static/js/3.3c97063c.chunk.js": "/philippines/static/js/3.3c97063c.chunk.js",
     "static/js/3.3c97063c.chunk.js.map": "/philippines/static/js/3.3c97063c.chunk.js.map",
     "index.html": "/philippines/index.html",
     "static/css/2.809e1753.chunk.css.map": "/philippines/static/css/2.809e1753.chunk.css.map",
     "static/css/main.8dc92cb5.chunk.css.map": "/philippines/static/css/main.8dc92cb5.chunk.css.map",
-    "static/js/2.202b9695.chunk.js.LICENSE.txt": "/philippines/static/js/2.202b9695.chunk.js.LICENSE.txt",
+    "static/js/2.b7bd61cb.chunk.js.LICENSE.txt": "/philippines/static/js/2.b7bd61cb.chunk.js.LICENSE.txt",
     "static/media/Bag.7deb8c08.svg": "/philippines/static/media/Bag.7deb8c08.svg",
     "static/media/Beach.bf260847.svg": "/philippines/static/media/Beach.bf260847.svg",
     "static/media/Flight.723fac3a.svg": "/philippines/static/media/Flight.723fac3a.svg",
     "static/media/Halaal.1fd8183b.svg": "/philippines/static/media/Halaal.1fd8183b.svg",
     "static/media/Info.b14e29d5.svg": "/philippines/static/media/Info.b14e29d5.svg",
+    "static/media/Ruler.3b614622.svg": "/philippines/static/media/Ruler.3b614622.svg",
+    "static/media/Ruler2.8b4a901e.svg": "/philippines/static/media/Ruler2.8b4a901e.svg",
     "static/media/Wine-glass.e6f09866.svg": "/philippines/static/media/Wine-glass.e6f09866.svg",
     "static/media/building.2378171f.svg": "/philippines/static/media/building.2378171f.svg",
     "static/media/camera.09077b8c.svg": "/philippines/static/media/camera.09077b8c.svg",
@@ -33,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.29a418fb.js",
     "static/css/2.809e1753.chunk.css",
-    "static/js/2.202b9695.chunk.js",
+    "static/js/2.b7bd61cb.chunk.js",
     "static/css/main.8dc92cb5.chunk.css",
-    "static/js/main.cf6b4b1d.chunk.js"
+    "static/js/main.6a8cf49f.chunk.js"
   ]
 }
