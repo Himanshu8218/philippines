@@ -79,7 +79,7 @@ export class At extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div style={{ position: 'absolute', right: '16px', bottom: '16px' }}>
+                                <div style={{ position: 'absolute', right: '16px', top: '16px' }}>
                                     <h6 style={{ color: "white" }}>Jetskiing</h6>
                                 </div>
                             </div>
@@ -87,7 +87,7 @@ export class At extends Component {
                         <div className="row m-0">
                             <div className=' parent p-0' style={{ ...imageStyle, backgroundImage: `url(${AtSeaLevel.island})`, height: 241 }}>
                                 <div className='details'>
-                                    <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%', width: '45%' }}>
+                                    <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%', width: '60%' }}>
                                         <div style={{ color: 'white' }}>
                                             <h1>Island Camping</h1>
                                             <p>Camping on an island is like a packaged adventure, being left to your own devices, who knows what fun will you figure out. Here you have over 7000 islands to choose from.

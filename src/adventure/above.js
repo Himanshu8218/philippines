@@ -55,7 +55,7 @@ export class Above extends Component {
                                     </div>
 
                                 </div>
-                                <div style={{ position: 'absolute', right: '16px', bottom: '16px' }}>
+                                <div style={{ position: 'absolute', right: '16px', top: '16px' }}>
                                     <h6 style={{ color: "white" }}>Skydive</h6>
                                 </div>
                             </div>
