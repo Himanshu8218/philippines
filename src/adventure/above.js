@@ -20,8 +20,8 @@ export class Above extends Component {
         return (
             <>
 
-                <div className="row m-0" style={{ height: 490, }}>
-                    <div className="col-6 p-0">
+                <div className="row m-0">
+                    <div className="col-md-6 col-sm-12 p-0"  style={{ height: 490, }}>
                         <div className='parent' style={{ ...imageStyle, backgroundImage: `url(${AboveSeaLevel.paragliding})`, height: 490 }}>
                             <div className='details'>
                                 <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', height: '100%' ,  width:'45%' }}>
@@ -40,7 +40,7 @@ export class Above extends Component {
                         </div>
 
                     </div>
-                    <div className="col-6 p-0 ps-2">
+                    <div className="col-md-6 col-sm-12 p-0 ps-2"  style={{ height: 490, }}>
                         <div className="row pb-2 m-0">
                             <div className='parent p-0' style={{ ...imageStyle, backgroundImage: `url(${AboveSeaLevel.skydiving})`, height: 241 }}>
                                 <div className='details'>
@@ -58,7 +58,7 @@ export class Above extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="row m-0">
+                        <div className="row m-0 ">
                             <div className=' parent p-0' style={{ ...imageStyle, backgroundImage: `url(${AboveSeaLevel.zipline})`, height: 241 }}>
                                 <div className='details'>
                                     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%',  width:'45%' }}>
@@ -78,8 +78,8 @@ export class Above extends Component {
                     </div>
 
                 </div>
-                <div className="row pt-2  m-0" style={{ height: 528 }}>
-                    <div className="col-7 p-0  pe-2 ">
+                <div className="row pt-2  m-0">
+                    <div className="col-md-7 col-sm-12 p-0  pe-2 "  style={{ height: 528 }}>
                         <div className='parent' style={{ ...imageStyle, backgroundImage: `url(${AboveSeaLevel.canyoneering})`, height: 512 }}>
                             <div className='details'>
                                 <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', height: '100%',  width:'45%'}}>
@@ -96,7 +96,7 @@ export class Above extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-5 p-0">
+                    <div className="col-md-5 col-sm-12 p-0"  style={{ height: 528 }}>
                         <div className='parent' style={{ ...imageStyle, backgroundImage: `url(${AboveSeaLevel.hiking})`, height: 512 }}>
                             <div className='details'>
                                 <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%',  width:'45%' }}>

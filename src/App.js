@@ -6,7 +6,7 @@ import {
   HashRouter as Router,
   Switch,
   Route,
-  Link
+  Link, withRouter
 } from "react-router-dom";
 import { FooterComponent } from "./components/Footer";
 import { Scrollbars } from 'react-custom-scrollbars';
@@ -19,14 +19,7 @@ export default class App extends Component {
     return (
       <Router>
         <Scrollbars autoHide style={{ height: "100vh", width: "100vw" }}>
-          <Switch>
-            <Route path="/adventure">
-              <AdventureScreen />
-            </Route>
-            <Route path="/">
-              <HomeScreen />
-            </Route>
-          </Switch>
+          <AppRouterRender/>
           <NavbarComponent />
         </Scrollbars>
       </Router>
@@ -34,3 +27,19 @@ export default class App extends Component {
   }
 }
 
+class AppRouter extends Component {
+  render = () => {
+    return (
+      <Switch>
+        <Route path="/adventure">
+          <AdventureScreen history={this.props.history} />
+        </Route>
+        <Route path="/">
+          <HomeScreen history={this.props.history} />
+        </Route>
+      </Switch>
+    );
+  }
+}
+
+const AppRouterRender = withRouter(AppRouter);

@@ -6,10 +6,11 @@ import { FooterComponent } from "./Footer";
 
 export class HomeScreen extends Component {
     render = () => {
+        console.log(this.props);
         return (
             <div>
                 <HeaderComponent />
-                <MapComponent />
+                <MapComponent history={this.props.history} />
                 <CardSlidesComponent />
                 <FooterComponent />
             </div>

@@ -19,6 +19,7 @@ export class AdventureScreen extends Component {
         currentTab: "above"
     }
 
+
     render = () => {
         return (
             <div style={{}}>
@@ -54,7 +55,7 @@ export class AdventureScreen extends Component {
                             <RulerLeft />
                         </div>
                         <div className='col-10' >
-                            <div className="row justify-content-center  text-center p-5" style={{ color: 'white', boxShadow: '' }}>
+                            <div className="row justify-content-center  text-center pt-5 pb-5" style={{ color: 'white', boxShadow: '' }}>
                                 <div className="col-3" style={this.state.currentTab === 'above' ? { color: "yellow" ,borderRight: '1px solid',  textShadow: '2px 2px 4px #000000' } : {borderRight: '1px solid', }} onClick={() => { this.setState({ currentTab: "above" }) }}>ABOVE SEA LEVEL</div>
                                 <div className="col-3" style={this.state.currentTab === 'at' ? { color: "yellow" ,  borderRight: '1px solid',textShadow: '2px 2px 4px #000000' } : {borderRight: '1px solid'}} onClick={() => { this.setState({ currentTab: "at" }) } }>AT SEA LEVEL</div>
                                 <div className="col-3" style={this.state.currentTab === 'below' ? { color: "yellow",textShadow: '2px 2px 4px #000000' } : {}} onClick={() => { this.setState({ currentTab: "below" }) }}>BELOW SEA LEVEL</div>
