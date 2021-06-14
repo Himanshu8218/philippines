@@ -12,6 +12,10 @@
     display: block;
 }
 
+.parent:hover > .student{
+    display: none;
+}
+
 .parent {
     position: "relative"; background-size: 'cover';
     cursor: pointer

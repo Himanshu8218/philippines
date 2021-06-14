@@ -28,7 +28,7 @@ export class Below extends Component {
                                 </div>
 
                             </div>
-                            <div style={{ position: 'absolute', right: '16px', bottom: '16px' }}>
+                            <div className="student" style={{ position: 'absolute', left: '16px', top: '16px' }}>
                                 <h6 style={{ color: "white" }}>Snorkelling</h6>
                             </div>
                         </div>
@@ -44,7 +44,7 @@ export class Below extends Component {
                                 </div>
 
                             </div>
-                            <div style={{ position: 'absolute', right: '16px', top: '16px' }}>
+                            <div className="student" style={{ position: 'absolute', right: '16px', top: '16px' }}>
                                 <h6 style={{ color: 'white' }}>
                                 Submarine Ride
 </h6>
@@ -55,7 +55,7 @@ export class Below extends Component {
                 <div className="col-6 p-0 ps-2 ">
                     <div className='parent' style={{ ...imageStyle, backgroundImage: `url(${BelowSeaLevel.third})`, height: 490 }}>
                         <div className='details'>
-                            <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%', width: '65%' }}>
+                            <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%', width: '45%' }}>
                                 <div style={{ color: 'white' }}>
                                     <h1>Whale Shark tours</h1>
                                     <p>Meet the kings and queens of the Pacific ocean, tours to see the majestic whale shark set sail from all around the nation. This is ocean safari at its best.
@@ -64,7 +64,7 @@ export class Below extends Component {
                             </div>
 
                         </div>
-                        <div style={{ position: 'absolute', right: '16px', bottom: '16px' }}>
+                        <div className="student" style={{ position: 'absolute', left: '16px', bottom: '16px' }}>
                             <h6 style={{ color: 'white' }}>Whale Shark tours</h6>
                         </div>
 
@@ -87,7 +87,7 @@ export class Below extends Component {
                                 </div>
 
                             </div>
-                            <div style={{ position: 'absolute', left: '16px', top: '16px' }}>
+                            <div className="student" style={{ position: 'absolute', right: '16px', top: '16px' }}>
                                 <h6 style={{ color: 'white' }}>Free diving </h6>
                             </div>
                         </div>
@@ -105,7 +105,7 @@ export class Below extends Component {
                                 </div>
 
                             </div>
-                            <div style={{ position: 'absolute', left: '16px', top: '16px' }}>
+                            <div  className="student" style={{ position: 'absolute', left: '16px', top: '16px' }}>
                                 <h6 style={{ color: 'white' }}>Deep Sea Diving</h6>
                             </div>
                         </div>

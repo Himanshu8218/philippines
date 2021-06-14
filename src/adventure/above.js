@@ -24,7 +24,7 @@ export class Above extends Component {
                     <div className="col-6 p-0">
                         <div className='parent' style={{ ...imageStyle, backgroundImage: `url(${AboveSeaLevel.paragliding})`, height: 490 }}>
                             <div className='details'>
-                                <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%' ,  width:'45%' }}>
+                                <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', height: '100%' ,  width:'45%' }}>
                                     <div style={{ color: 'white' }}>
                                         <h1>Paragliding</h1>
                                         <p>Sailing through the breeze of the pacific in a glider, the Philippines has many breathtaking horizons which makes it an oceanic paradise for paragliders.
@@ -34,11 +34,9 @@ export class Above extends Component {
                                 </div>
 
                             </div>
-                            <div style={{ position: 'absolute', right: '16px', bottom: '16px' }}>
+                            <div  className="student" style={{ position: 'absolute', left: '16px', top: '16px' }}>
                                 <h6 style={{ color: 'white' }}>Paragliding</h6>
                             </div>
-
-
                         </div>
 
                     </div>
@@ -46,7 +44,7 @@ export class Above extends Component {
                         <div className="row pb-2 m-0">
                             <div className='parent p-0' style={{ ...imageStyle, backgroundImage: `url(${AboveSeaLevel.skydiving})`, height: 241 }}>
                                 <div className='details'>
-                                    <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%' , width:'45%' }}>
+                                    <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', height: '100%' , width:'45%' }}>
                                         <div style={{ color: 'white' }}>
                                             <h1>Skydive</h1>
                                             <p>Jumping from 10,000 ft above sea level, goes to another level when you’re Skydiving into paradise. The Philippines is extremely good for this extreme sport.
@@ -55,7 +53,7 @@ export class Above extends Component {
                                     </div>
 
                                 </div>
-                                <div style={{ position: 'absolute', right: '16px', top: '16px' }}>
+                                <div className="student" style={{ position: 'absolute', right: '16px', top: '16px' }}>
                                     <h6 style={{ color: "white" }}>Skydive</h6>
                                 </div>
                             </div>
@@ -72,7 +70,7 @@ export class Above extends Component {
                                     </div>
 
                                 </div>
-                                <div style={{ position: 'absolute', right: '16px', bottom: '16px' }}>
+                                <div className="student" style={{ position: 'absolute', left: '16px', bottom: '16px' }}>
                                     <h6 style={{ color: 'white' }}>Zipline</h6>
                                 </div>
                             </div>
@@ -80,7 +78,7 @@ export class Above extends Component {
                     </div>
 
                 </div>
-                <div className="row pt-3 m-0" style={{ height: 528 }}>
+                <div className="row pt-2  m-0" style={{ height: 528 }}>
                     <div className="col-7 p-0  pe-2 ">
                         <div className='parent' style={{ ...imageStyle, backgroundImage: `url(${AboveSeaLevel.canyoneering})`, height: 512 }}>
                             <div className='details'>
@@ -93,7 +91,7 @@ export class Above extends Component {
                                 </div>
 
                             </div>
-                            <div style={{ position: 'absolute', left: '16px', top: '16px' }}>
+                            <div className="student" style={{ position: 'absolute', left: '16px', bottom: '16px' }}>
                                 <h6 style={{ color: 'white' }}>Canyoneering</h6>
                             </div>
                         </div>
@@ -101,7 +99,7 @@ export class Above extends Component {
                     <div className="col-5 p-0">
                         <div className='parent' style={{ ...imageStyle, backgroundImage: `url(${AboveSeaLevel.hiking})`, height: 512 }}>
                             <div className='details'>
-                                <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', height: '100%',  width:'45%' }}>
+                                <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%',  width:'45%' }}>
                                     <div style={{ color: 'white' }}>
                                         <h1>Mountain Climbing</h1>
                                         <p>Summit the country's highest mountains that leave you astounded with the views from the top. This is where you’ll really feel you’re on top of the world.
@@ -110,7 +108,7 @@ export class Above extends Component {
                                 </div>
 
                             </div>
-                            <div style={{ position: 'absolute', left: '16px', top: '16px' }}>
+                            <div className="student" style={{ position: 'absolute', right: '16px', top: '16px'}}>
                                 <h6 style={{ color: 'white' }}>Mountain Climbing</h6>
                             </div>
                         </div>

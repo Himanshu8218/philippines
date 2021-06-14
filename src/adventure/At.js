@@ -27,7 +27,7 @@ export class At extends Component {
                             </div>
                         </div>
                     </div>
-                    <div style={{ position: 'absolute', left: '16px', top: '16px' }}>
+                    <div  className="student" style={{ position: 'absolute', left: '16px', top: '16px' }}>
                         <h6 style={{ color: 'white' }}>Sailing</h6>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ export class At extends Component {
                             </div>
                         </div>
                     </div>
-                    <div style={{ position: 'absolute', left: '16px', top: '16px' }}>
+                    <div className="student" style={{ position: 'absolute', left: '16px', top: '16px' }}>
                         <h6 style={{ color: 'white' }}>Surfing</h6>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ export class At extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div style={{ position: 'absolute', right: '16px', bottom: '16px' }}>
+                            <div className="student" style={{ position: 'absolute', right: '16px', bottom: '16px' }}>
                                 <h6 style={{ color: 'white' }}>Kayaking</h6>
                             </div>
                         </div>
@@ -79,7 +79,7 @@ export class At extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div style={{ position: 'absolute', right: '16px', top: '16px' }}>
+                                <div className="student" style={{ position: 'absolute', right: '16px', top: '16px' }}>
                                     <h6 style={{ color: "white" }}>Jetskiing</h6>
                                 </div>
                             </div>
@@ -95,7 +95,7 @@ export class At extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div style={{ position: 'absolute', right: '16px', bottom: '16px' }}>
+                                <div className="student" style={{ position: 'absolute', right: '16px', bottom: '16px' }}>
                                     <h6 style={{ color: 'white' }}>Island Camping</h6>
                                 </div>
                             </div>
