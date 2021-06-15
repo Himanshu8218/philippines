@@ -51,7 +51,7 @@ export class At extends Component {
         </div>
 
                 <div className="row m-0 pt-2" >
-                    <div className="col-md-6  col-sm-12 p-0" style={{ height: 490, }}>
+                    <div className="col-md-6 col-sm-12 p-0" style={{ height: 490, }}>
                         <div className='parent' style={{ ...imageStyle, backgroundImage: `url(${AtSeaLevel.kayaking})`, height: 490 }}>
                             <div className='details'>
                                 <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%', width: '45%' }}>
