@@ -16,7 +16,15 @@ const imageStyle = { position: "relative", backgroundSize: 'cover', boxShadow: '
 }
 
 export class Above extends Component {
+
+
     render = () => {
+
+        const screenWidth =  window.screen.width
+
+        const style = (screenWidth > 600 ? {paddingLeft: '16px',height: 241} : { paddingTop: '16px', height: 490})
+
+        console.log('>>>>>>', window.screen.width)
         return (
             <>
 
@@ -40,9 +48,9 @@ export class Above extends Component {
                         </div>
 
                     </div>
-                    <div className="col-md-6 col-sm-12 p-0 ps-2"  style={{ height: 490, }}>
+                    <div className="col-md-6 col-sm-12 p-0 ps-2">
                         <div className="row pb-2 m-0">
-                            <div className='parent p-0' style={{ ...imageStyle, backgroundImage: `url(${AboveSeaLevel.skydiving})`, height: 241 }}>
+                            <div className='parent p-0' style={{ ...imageStyle, backgroundImage: `url(${AboveSeaLevel.skydiving})`, ...style }}>
                                 <div className='details'>
                                     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', height: '100%' , width:'45%' }}>
                                         <div style={{ color: 'white' }}>
@@ -59,7 +67,7 @@ export class Above extends Component {
                             </div>
                         </div>
                         <div className="row m-0 ">
-                            <div className=' parent p-0' style={{ ...imageStyle, backgroundImage: `url(${AboveSeaLevel.zipline})`, height: 241 }}>
+                            <div className=' parent p-0' style={{ ...imageStyle, backgroundImage: `url(${AboveSeaLevel.zipline})`, ...style  }}>
                                 <div className='details'>
                                     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%',  width:'45%' }}>
                                         <div style={{ color: 'white' }}>
@@ -99,7 +107,7 @@ export class Above extends Component {
                     <div className="col-md-5 col-sm-12 p-0"  style={{ height: 528 }}>
                         <div className='parent' style={{ ...imageStyle, backgroundImage: `url(${AboveSeaLevel.hiking})`, height: 512 }}>
                             <div className='details'>
-                                <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%',  width:'45%' }}>
+                                <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%',  width:'60%' }}>
                                     <div style={{ color: 'white' }}>
                                         <h1>Mountain Climbing</h1>
                                         <p>Summit the country's highest mountains that leave you astounded with the views from the top. This is where you’ll really feel you’re on top of the world.

@@ -13,6 +13,13 @@ const imageStyle = { position: "relative", backgroundSize: 'cover', boxShadow: '
 
 export class At extends Component {
     render = () => {
+
+        const screenWidth =  window.screen.width
+
+        const style = (screenWidth > 600 ? {paddingLeft: '16px',height: 241} : { paddingTop: '16px', height: 490})
+
+        console.log('>>>>>>', window.screen.width)
+
         return (
             <><div className="row pt-3 m-0"  >
             <div className="col-md-7 col-sm-12 p-0  pe-2 " style={{ height: 528 }}>
@@ -35,7 +42,7 @@ export class At extends Component {
             <div className="col-md-5 col-sm-12 p-0">
                 <div className='parent' style={{ ...imageStyle, backgroundImage: `url(${AtSeaLevel.surfing})`, height: 512 }}>
                     <div className='details'>
-                        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', height: '100%', width: '45%' }}>
+                        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', height: '100%', width: '60%' }}>
                             <div style={{ color: 'white' }}>
                                 <h1>Surfing</h1>
                                 <p>Hang ten over the tides, the waves on our beaches truly have a playful stride. Though every beach has that surf element, spots you should definitely hit are East Samar and Baler, Aurora.
@@ -69,7 +76,7 @@ export class At extends Component {
                     </div>
                     <div className="col-md-6 col-sm-12 p-0 ps-2">
                         <div className="row pb-2 m-0">
-                            <div className='parent p-0' style={{ ...imageStyle, backgroundImage: `url(${AtSeaLevel.jetskiing})`, height: 241 }}>
+                            <div className='parent p-0' style={{ ...imageStyle, backgroundImage: `url(${AtSeaLevel.jetskiing})`, ...style }}>
                                 <div className='details'>
                                     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%', width: '45%' }}>
                                         <div style={{ color: 'white' }}>
@@ -85,7 +92,7 @@ export class At extends Component {
                             </div>
                         </div>
                         <div className="row m-0 col-md   col-sm-12">
-                            <div className=' parent p-0' style={{ ...imageStyle, backgroundImage: `url(${AtSeaLevel.island})`, height: 241 }}>
+                            <div className=' parent p-0' style={{ ...imageStyle, backgroundImage: `url(${AtSeaLevel.island})`, ...style }}>
                                 <div className='details'>
                                     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%', width: '60%' }}>
                                         <div style={{ color: 'white' }}>
