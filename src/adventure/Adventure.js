@@ -3,8 +3,6 @@ import { FooterComponent } from "./Footer";
 import { Above } from "./above";
 import { At, AtSeaLevel } from "./At";
 import { Below } from "./below";
-import { ReactComponent as RulerLeft } from './Ruler.svg'
-import { ReactComponent as RulerRight } from './Ruler2.svg'
 
 const AboveSeaLevel = {
     hikingAbove: `${process.env.PUBLIC_URL}/Above-sea-level-img/Above-bg.jpg`,
@@ -22,7 +20,7 @@ export class AdventureScreen extends Component {
 
     render = () => {
         return (
-            <div style={{}}>
+            <div className="container-fluid" style={{}}>
                 <div className='row justify-content-center' style={{ paddingTop: "100px", backgroundImage: `url(${this.state.currentTab === 'above' ? AboveSeaLevel.hikingAbove : this.state.currentTab === 'at' ? AboveSeaLevel.hikingAt : AboveSeaLevel.hikingBelow})`, backgroundSize: 'cover' , }}>
                     <div className='row justify-content-center' style={{  }}>
                         {this.state.currentTab === 'above' ? <div className='col-10'>
@@ -50,11 +48,11 @@ export class AdventureScreen extends Component {
 
                     </div>
 
-                    <div className="row pb-4" style={{background: "linear-gradient(0deg, white, rgb(0 0 0 / 0%))"}} >
-                        <div className='col-1 p-0'>
-                            <RulerLeft />
+                    <div className="row g-0 pb-4" style={{background: "linear-gradient(0deg, white, rgb(0 0 0 / 0%))"}} >
+                        <div className='col-auto' style={{width: "40px",  backgroundPositionX: "center", backgroundImage: `url(${process.env.PUBLIC_URL}/Scale/Ruler.svg)`}}>
+                            
                         </div>
-                        <div className='col-10' >
+                        <div className='col ps-lg-5 pe-lg-5 ps-md-4 pe-md-4 ps-2 pe-2'>
                             <div className="row justify-content-center  text-center pt-5 pb-5" style={{ color: 'white', boxShadow: '' }}>
                                 <div className="col-3" style={this.state.currentTab === 'above' ? { color: "yellow" ,borderRight: '1px solid',  textShadow: '2px 2px 4px #000000' } : {borderRight: '1px solid', }} onClick={() => { this.setState({ currentTab: "above" }) }}>ABOVE SEA LEVEL</div>
                                 <div className="col-3" style={this.state.currentTab === 'at' ? { color: "yellow" ,  borderRight: '1px solid',textShadow: '2px 2px 4px #000000' } : {borderRight: '1px solid'}} onClick={() => { this.setState({ currentTab: "at" }) } }>AT SEA LEVEL</div>
@@ -64,9 +62,8 @@ export class AdventureScreen extends Component {
                                 {this.state.currentTab === "above" ? <div><Above /></div> : this.state.currentTab === "at" ? <div><At /></div> : this.state.currentTab === "below" && <div><Below /></div>}
                             </div>
                         </div>
-                        <div className='col-1 p-0' style={{ display: 'flex', justifyContent: 'flex-end' }}>  
-                            <RulerRight />
-
+                        <div className='col-auto' style={{width: "40px", backgroundPositionX: "center",backgroundImage: `url(${process.env.PUBLIC_URL}/Scale/Ruler2.svg)`}}>
+                            
                         </div>
                     </div>
                 </div>

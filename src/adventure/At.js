@@ -9,20 +9,20 @@ const AtSeaLevel = {
     surfing: `${process.env.PUBLIC_URL}/At-sea-level-img/Surfing.jpg`,
 }
 
-const imageStyle = { position: "relative", backgroundSize: 'cover', boxShadow: '0px 4px 20px rgb(0 0 0 / 30%) ' }
+const imageStyle = { position: "relative", backgroundSize: 'cover', boxShadow: '0px 4px 20px rgb(0 0 0 / 30%) ', backgroundPosition:"center"  }
 
 export class At extends Component {
     render = () => {
 
         const screenWidth =  window.screen.width
 
-        const style = (screenWidth > 600 ? {paddingLeft: '16px',height: 241} : { paddingTop: '16px', height: 490})
+        const style = (screenWidth > 600 ? {height: 241} : {height: 490})
 
         console.log('>>>>>>', window.screen.width)
 
         return (
-            <><div className="row pt-3 m-0"  >
-            <div className="col-md-7 col-sm-12 p-0  pe-2 " style={{ height: 528 }}>
+            <><div className="row  pt-2 g-0"  >
+            <div className="col-md-7 col-sm-12  " style={{ height: 528 }}>
                 <div className='parent' style={{ ...imageStyle, backgroundImage: `url(${AtSeaLevel.sailing})`, height: 512 }}>
                     <div className='details'>
                         <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', height: '100%', width: '45%' }}>
@@ -39,7 +39,7 @@ export class At extends Component {
                     </div>
                 </div>
             </div>
-            <div className="col-md-5 col-sm-12 p-0">
+            <div className="col-md-5 col-sm-12 ps-lg-2 ps-md-2 ps-sm-0">
                 <div className='parent' style={{ ...imageStyle, backgroundImage: `url(${AtSeaLevel.surfing})`, height: 512 }}>
                     <div className='details'>
                         <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', height: '100%', width: '60%' }}>
@@ -57,8 +57,8 @@ export class At extends Component {
             </div>
         </div>
 
-                <div className="row m-0 pt-2" >
-                    <div className="col-md-6 col-sm-12 p-0" style={{ height: 490, }}>
+                <div className="row p-0 g-0" >
+                    <div className="col-md-6 col-sm-12 " style={{ height: 490, }}>
                         <div className='parent' style={{ ...imageStyle, backgroundImage: `url(${AtSeaLevel.kayaking})`, height: 490 }}>
                             <div className='details'>
                                 <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%', width: '45%' }}>
@@ -74,9 +74,9 @@ export class At extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-sm-12 p-0 ps-2">
-                        <div className="row pb-2 m-0">
-                            <div className='parent p-0' style={{ ...imageStyle, backgroundImage: `url(${AtSeaLevel.jetskiing})`, ...style }}>
+                    <div className="col-md-6 col-sm-12">
+                        <div className="row pb-2 ps-lg-2 ps-md-2 ps-sm-0 g-0 ">
+                            <div className='parent ' style={{ ...imageStyle, backgroundImage: `url(${AtSeaLevel.jetskiing})`, ...style }}>
                                 <div className='details'>
                                     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%', width: '45%' }}>
                                         <div style={{ color: 'white' }}>
@@ -91,8 +91,8 @@ export class At extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="row m-0 col-md   col-sm-12">
-                            <div className=' parent p-0' style={{ ...imageStyle, backgroundImage: `url(${AtSeaLevel.island})`, ...style }}>
+                        <div className="row col-sm-12 ps-lg-2 ps-md-2 ps-sm-0 g-0">
+                            <div className=' parent ' style={{ ...imageStyle, backgroundImage: `url(${AtSeaLevel.island})`, ...style }}>
                                 <div className='details'>
                                     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%', width: '60%' }}>
                                         <div style={{ color: 'white' }}>

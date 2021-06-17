@@ -12,8 +12,7 @@ const AboveSeaLevel = {
 
 }
 
-const imageStyle = { position: "relative", backgroundSize: 'cover', boxShadow: '0px 4px 20px rgb(0 0 0 / 30%)', 
-}
+const imageStyle = { position: "relative", backgroundSize: 'cover', boxShadow: '0px 4px 20px rgb(0 0 0 / 30%)', backgroundPosition:"center" }
 
 export class Above extends Component {
 
@@ -22,14 +21,14 @@ export class Above extends Component {
 
         const screenWidth =  window.screen.width
 
-        const style = (screenWidth > 600 ? {paddingLeft: '16px',height: 241} : { paddingTop: '16px', height: 490})
+        const style = (screenWidth > 600 ? {height: 241} : {height: 490})
 
         console.log('>>>>>>', window.screen.width)
         return (
             <>
 
-                <div className="row m-0">
-                    <div className="col-md-6 col-sm-12 p-0"  style={{ height: 490, }}>
+                <div className="row  g-0 ">
+                    <div className="col-md-6 col-sm-12  pb-2"  style={{ height: 490, }}>
                         <div className='parent' style={{ ...imageStyle, backgroundImage: `url(${AboveSeaLevel.paragliding})`, height: 490 }}>
                             <div className='details'>
                                 <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', height: '100%' ,  width:'45%' }}>
@@ -48,9 +47,9 @@ export class Above extends Component {
                         </div>
 
                     </div>
-                    <div className="col-md-6 col-sm-12 p-0 ps-2">
-                        <div className="row pb-2 m-0">
-                            <div className='parent p-0' style={{ ...imageStyle, backgroundImage: `url(${AboveSeaLevel.skydiving})`, ...style }}>
+                    <div className="col-md-6 col-sm-12  ps-lg-2 pl-md-2 ps-0">
+                        <div className="row  g-0 pb-2 ">
+                            <div className='parent ' style={{ ...imageStyle, backgroundImage: `url(${AboveSeaLevel.skydiving})`, ...style }}>
                                 <div className='details'>
                                     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', height: '100%' , width:'45%' }}>
                                         <div style={{ color: 'white' }}>
@@ -66,7 +65,7 @@ export class Above extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="row m-0 ">
+                        <div className="row g-0  ">
                             <div className=' parent p-0' style={{ ...imageStyle, backgroundImage: `url(${AboveSeaLevel.zipline})`, ...style  }}>
                                 <div className='details'>
                                     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%',  width:'45%' }}>
@@ -86,13 +85,13 @@ export class Above extends Component {
                     </div>
 
                 </div>
-                <div className="row pt-2  m-0">
-                    <div className="col-md-7 col-sm-12 p-0  pe-2 "  style={{ height: 528 }}>
+                <div className="row pt-2 g-0 ">
+                    <div className="col-md-7 col-sm-12   pe-lg-2 pr-md-2 pe-0"  style={{ height: 528 }}>
                         <div className='parent' style={{ ...imageStyle, backgroundImage: `url(${AboveSeaLevel.canyoneering})`, height: 512 }}>
                             <div className='details'>
-                                <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', height: '100%',  width:'45%'}}>
+                                <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', height: '100%',  width:'60%'}}>
                                     <div style={{ color: 'white' }}>
-                                        <h1>Canyoneering</h1>
+                                        <h2>Canyoneering</h2>
                                         <p>The Philippines' natural playground allows you to climb mountains, jump into streams and waterfalls. It’s so much fun, that every adventure seeker wants a piece of this wonderland.
 </p>
                                     </div>
@@ -104,7 +103,7 @@ export class Above extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-5 col-sm-12 p-0"  style={{ height: 528 }}>
+                    <div className="col-md-5 col-sm-12 "  style={{ height: 528 }}>
                         <div className='parent' style={{ ...imageStyle, backgroundImage: `url(${AboveSeaLevel.hiking})`, height: 512 }}>
                             <div className='details'>
                                 <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%',  width:'60%' }}>
