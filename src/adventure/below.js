@@ -50,7 +50,7 @@ export class Below extends Component {
                                 </div>
 
                             </div>
-                            <div className="student" style={{ position: 'absolute', right: '16px', top: '16px' }}>
+                            <div className="student" style={{ position: 'absolute', left: '16px', top: '16px' }}>
                                 <h6 style={{ color: 'white' }}>Submarine Ride</h6>
                             </div>
                         </div>
@@ -68,7 +68,7 @@ export class Below extends Component {
                             </div>
 
                         </div>
-                        <div className="student" style={{ position: 'absolute', left: '16px', bottom: '16px' }}>
+                        <div className="student" style={{ position: 'absolute', left: '16px', top: '16px' }}>
                             <h6 style={{ color: 'white' }}>Whale Shark tours</h6>
                         </div>
 
@@ -87,7 +87,7 @@ export class Below extends Component {
                             </div>
 
                         </div>
-                        <div className="student" style={{ position: 'absolute', right: '16px', top: '16px' }}>
+                        <div className="student" style={{ position: 'absolute', left: '16px', top: '16px' }}>
                             <h6 style={{ color: 'white' }}>Free diving </h6>
                         </div>
                     </div>
