@@ -38,7 +38,7 @@ export class HeaderComponent extends Component {
                     <div>
                         <div style={{
                             width: '100%',
-                            height: '70vh',
+                            height: '85vh',
                             overflow: 'hidden',
                             position: "relative"
                         }}>
@@ -70,7 +70,7 @@ export class HeaderComponent extends Component {
                         </Carousel>
                     </div>
                 </div>
-                <div style={{ position: "absolute", top: "50%", bottom: "50%", width: "100%" }}>
+                <div style={{ position: "absolute", top: "55%", bottom: "50%", width: "100%" }}>
                     <div className="row justify-content-center" style={{ margin: "auto", color: "#1B9EB2", ' --bs-gutter-x': '6.5rem' }}>
                         <div className="col-auto" style={{ paddingLeft: 0 }}>
                             <div className="bg-white text-center p-4  header-heading" style={{ borderRadius: "10px", boxShadow: "#44444422 5px 5px", fontWeight: 'bold' }} >WHERE NATURE HAS FUN WITH COLOURS</div>

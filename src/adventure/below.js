@@ -66,15 +66,11 @@ export class Below extends Component {
 </p>
                                 </div>
                             </div>
-
                         </div>
                         <div className="student" style={{ position: 'absolute', left: '16px', top: '16px' }}>
                             <h6 style={{ color: 'white' }}>Whale Shark tours</h6>
                         </div>
-
-
                     </div>
-
                 </div>
                 <div className="col-md-7 col-12 pe-md-1 pt-1 pb-1" style={{ height: 528 }}>
                     <div className='parent' style={{ ...imageStyle, backgroundImage: `url(${BelowSeaLevel.fourth})`, height: 512 }}>
@@ -85,7 +81,6 @@ export class Below extends Component {
                                     <p>For the water babies who can hold their breaths longer, the Philippines is a wonderland to explore the ocean on your own. But we do recommend you take a course before.</p>
                                 </div>
                             </div>
-
                         </div>
                         <div className="student" style={{ position: 'absolute', left: '16px', top: '16px' }}>
                             <h6 style={{ color: 'white' }}>Free diving </h6>
@@ -98,12 +93,9 @@ export class Below extends Component {
                             <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', height: '100%', width: '55%' }}>
                                 <div style={{ color: 'white' }}>
                                     <h1>Deep Sea Diving</h1>
-                                    <p>Divers are in for a treat, if you’re enthusiastic about diving just head to Tubbataha Reefs Natural Park, Anilao - Batangas, Dauin - Dumaguete, or  Moalboal - Cebu and more.
-
-</p>
+                                    <p>Divers are in for a treat, if you’re enthusiastic about diving just head to Tubbataha Reefs Natural Park, Anilao - Batangas, Dauin - Dumaguete, or  Moalboal - Cebu and more.</p>
                                 </div>
                             </div>
-
                         </div>
                         <div className="student" style={{ position: 'absolute', left: '16px', top: '16px' }}>
                             <h6 style={{ color: 'white' }}>Deep Sea Diving</h6>

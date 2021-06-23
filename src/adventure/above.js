@@ -27,7 +27,7 @@ export class Above extends Component {
         return (
             <>
 
-                <div className="row g-0 ">
+               <div className="row g-0 ">
                     <div className="col-md-6 pe-md-1 pt-1 pb-1">
                         <div className='parent' style={{ ...imageStyle, backgroundImage: `url(${AboveSeaLevel.paragliding})`, height: 490 }}>
                             <div className='details'>
@@ -61,7 +61,7 @@ export class Above extends Component {
                         </div>
                         <div className="">
                             <div className=' parent p-0' style={{ ...imageStyle, backgroundImage: `url(${AboveSeaLevel.zipline})`, ...style }}>
-                                <div className='details'>
+                                <div className='details'>   
                                     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%', width: '45%' }}>
                                         <div style={{ color: 'white' }}>
                                             <h1>Zipline</h1>
