@@ -36,14 +36,14 @@ export class AdventureScreen extends Component {
                                 <h1> GO FOR ADVENTURE WITH A VIEW </h1>
                             </div>
                             <div className="  text-center" style={{ color: 'white' }}>
-                                <h6>Hidden in these Islands are some of nature’s most exciting spots for adventure sports, that along with the beauty  <br></br> adds to the excitement that can only be experienced in the Philippines.</h6>
+                                <h6>Hidden in these Islands are some of nature’s most exciting spots for adventure sports, that along with  <br></br> the beauty  adds to the excitement that can only be experienced in the Philippines.</h6>
                             </div>
                         </div> : this.state.currentTab === 'below' && <div className='col-10'>
                             <div className=" text-center" style={{ color: 'white', textShadow: '1px 1px 2px #1E90FF' }}>
                                 <h1> GO DEEP INTO THE BLUES</h1>
                             </div>
                             <div className="  text-center" style={{ color: 'white', textShadow: '1px 1px 2px #1E90FF' }}>
-                                <h6>The pacific ocean has a rich underwater ecosystem that makes it a must visit destination for diving enthusiasts.<br></br> As a bustling tourist destination there are many ways to explore the ocean.</h6>
+                                <h6>The pacific ocean has a rich underwater ecosystem that makes it a must visit destination for diving<br></br> enthusiasts. As a bustling tourist destination there are many ways to explore the ocean.</h6>
                             </div>
                         </div>}
 

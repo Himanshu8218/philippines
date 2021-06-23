@@ -87,9 +87,9 @@ export class FooterComponent extends Component {
                                 <div><h4>Below Sea Level</h4></div>
                                 <div className="mt-4" style={{ color: "#ffffff" }}>
                                     <div className="footers mt-4 mb-2">Underwater photography</div>
-                                    <div className="mt-4 mb-2">Underwater Sea Walk</div>
-                                    <div className="mt-4 mb-2">Freediving</div>
-                                    <div className="mt-4 mb-2">Glass-bottom boat tours</div>
+                                    <div className="footers mt-4 mb-2">Underwater Sea Walk</div>
+                                    <div className="footers mt-4 mb-2">Freediving</div>
+                                    <div className="footers mt-4 mb-2">Glass-bottom boat tours</div>
                                 </div>
                             </div>
                             <div className="col-md-auto col-12 pt-md-4">
