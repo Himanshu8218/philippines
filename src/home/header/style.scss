@@ -73,3 +73,17 @@ ul {
     }
   }
 }
+
+
+
+.unmute{
+  display: none;
+  position: absolute;
+   bottom: 45px;
+    right: 20px;
+     cursor: pointer;
+}
+
+.parent:hover > .unmute{
+  display: block;
+}

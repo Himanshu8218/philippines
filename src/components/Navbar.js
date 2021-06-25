@@ -1,8 +1,26 @@
 import { Component } from "react";
-import { Nav, Navbar, Icon } from "rsuite";
+import { Icon } from "rsuite";
+import { Redirect } from 'react-router'
+
 
 export class NavbarComponent extends Component {
+    state = {
+        redirect: false
+    }
+    
+    handleClick = () => {
+        this.setState({ redirect: true })
+    }
+
     render = () => {
+
+       
+        const { redirect } = this.state;
+
+        if (redirect) {
+            return <Redirect to='/' />;
+        }
+
         return (
             <div style={{ background: "transparent", position: "absolute", width: "100%", top: 0 }}>
                 <div style={{ background: "transparent" }}>
@@ -15,14 +33,12 @@ export class NavbarComponent extends Component {
                                     <div className="col-auto"><Icon icon="search" className="text-white" /></div>
                                 </div>
                             </div>
-                            <div className="col-auto">
+                            <div className="col-auto pointer" onClick={this.handleClick}>
                                 <div className=""><img src={`${process.env.PUBLIC_URL}/images/logo.png`} className="img-fluid" style={{ width: "90px" }} /></div>
                             </div>
-                            <div></div>
                         </div>
                     </div>
                 </div>
-                
             </div>
         )
     }

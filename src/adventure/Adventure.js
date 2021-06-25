@@ -54,13 +54,24 @@ export class AdventureScreen extends Component {
 
                         </div>
 
-                        <div className='col ps-lg-5 pe-lg-5 ps-md-4 pe-md-4 ps-2 pe-2' >
-                            <div className="row justify-content-center  text-center pt-5 pb-5" style={{ color: 'white', boxShadow: '', cursor: 'pointer' }}>
-                                <div className="toggle col-3" style={this.state.currentTab === 'below' ? { color: "yellow", borderRight: '1px solid', textShadow: '2px 2px 4px #000000',transform: 'scale(1.3)'  } : { borderRight: '1px solid'}} onClick={() => { this.setState({ currentTab: "below" }) }}>BELOW SEA LEVEL</div>
-                                <div className="toggle col-3" style={this.state.currentTab === 'at' ? { color: "yellow", borderRight: '1px solid', textShadow: '2px 2px 4px #000000',transform: 'scale(1.3)' } : { borderRight: '1px solid' }} onClick={() => { this.setState({ currentTab: "at" }) }}>AT SEA LEVEL</div>
-                                <div className="toggle col-3" style={this.state.currentTab === 'above' ? { color: "yellow", textShadow: '2px 2px 4px #000000',transform: 'scale(1.3)' } : {}} onClick={() => { this.setState({ currentTab: "above" }) }}>ABOVE SEA LEVEL</div>
-                            </div>
-
+                        <div className='col ps-lg-5 pe-lg-5 ps-md-4 pe-md-4 ps-2 pe-2'>
+                            <div className="row justify-content-center text-center pt-5 pb-5" style={{ color: 'white', boxShadow: '', cursor: 'pointer' }}>
+                                <div className="col-3" style={{ borderRight: '1px solid' }} onClick={() => { this.setState({ currentTab: "below" }) }}>
+                                    <div className='toggle' style={this.state.currentTab === 'below' ? { color: "yellow", textShadow: '2px 2px 4px #000000', transform: 'scale(1.3)' } : {}}>
+                                        BELOW SEA LEVEL
+                                     </div>
+                                </div>
+                                <div className="col-3" style={{ borderRight: '1px solid' }} onClick={() => { this.setState({ currentTab: "at" }) }}>
+                                    <div className='toggle' style={this.state.currentTab === 'at' ? { color: "yellow", textShadow: '2px 2px 4px #000000', transform: 'scale(1.3)' } : {}}>
+                                        AT SEA LEVEL
+                                     </div>
+                                </div>
+                                <div className="col-3"  onClick={() => { this.setState({ currentTab: "above" }) }}>
+                                    <div className='toggle' style={this.state.currentTab === 'above' ? { color: "yellow", textShadow: '2px 2px 4px #000000', transform: 'scale(1.3)' } : {}}>
+                                        ABOVE SEA LEVEL
+                                     </div>
+                                </div>
+                                </div>
                             <div>
                                 {this.state.currentTab === "below" ? <div><Below /></div> : this.state.currentTab === "at" ? <div><At /></div> : this.state.currentTab === "above" && <div><Above /></div>}
                             </div>

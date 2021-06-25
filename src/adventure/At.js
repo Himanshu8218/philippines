@@ -40,7 +40,7 @@ export class At extends Component {
                 <div className="col-md-5 ps-md-1 pt-1 pb-1">
                     <div className='parent' style={{ ...imageStyle, backgroundImage: `url(${AtSeaLevel.surfing})`, height: 512 }}>
                         <div className='details'>
-                            <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', height: '100%', width: '60%' }}>
+                            <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%', width: '65%' }}>
                                 <div style={{ color: 'white' }}>
                                     <h1>Surfing</h1>
                                     <p>Hang ten over the tides, the waves on our beaches truly have a playful stride. Though every beach has that surf element, spots you should definitely hit are East Samar and Baler, Aurora.</p>
@@ -55,7 +55,7 @@ export class At extends Component {
                 <div className="col-md-6 pe-md-1 pt-1 pb-1">
                     <div className='parent' style={{ ...imageStyle, backgroundImage: `url(${AtSeaLevel.kayaking})`, height: 490 }}>
                         <div className='details'>
-                            <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%', width: '45%' }}>
+                            <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%', width: '55%' }}>
                                 <div style={{ color: 'white' }}>
                                     <h1>Kayaking</h1>
                                     <p>Life is always better when we choose to take all the scenic routes. Kayaking through the narrow streams in El Nido, Siargao, Tawala and Roxas is one life choice for your inner adventurer.</p>
@@ -71,7 +71,7 @@ export class At extends Component {
                     <div className="pb-2">
                         <div className='parent ' style={{ ...imageStyle, backgroundImage: `url(${AtSeaLevel.jetskiing})`, ...style }}>
                             <div className='details'>
-                                <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%', width: '45%' }}>
+                                <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%', width: '55%' }}>
                                     <div style={{ color: 'white' }}>
                                         <h1>Jetskiing</h1>
                                         <p>Tame the beast that is the ocean with power. Jet skiing is the most exciting water sport for beginners. You can do it all over the country as the wild waves are welcoming on all shores.</p>

@@ -69,3 +69,7 @@ body {
 @media (min-width: 1400px) { 
 
 }
+
+.effect:hover{
+  color: #0000;
+}

@@ -1,6 +1,5 @@
 import { Component } from "react";
 import { Carousel } from './carousel';
-import { ControlLabel, Icon, IconButton } from "rsuite";
 
 const carouselImages = [
     { url: `${process.env.PUBLIC_URL}/images/PinkSandBeach1.jpg`, name: "Pink Sand" },
@@ -36,15 +35,19 @@ export class HeaderComponent extends Component {
             <div style={{ position: "relative" }}>
                 <div style={{ position: "relative" }}>
                     <div>
-                        <div style={{
+                        <div className='parent' style={{
                             width: '100%',
                             height: '85vh',
                             overflow: 'hidden',
                             position: "relative"
                         }}>
-                            <video id="video" src={`${process.env.PUBLIC_URL}/images/logo-v.mp4`} autoPlay style={{ width: "100%", height: "100%", objectFit: "cover" }} muted></video>
-                            <div style={{ position: "absolute", bottom: 45, right: 20, cursor: "pointer" }} onClick={this.mute}>
-                                {this.state.muted === true ? <Icon icon="volume-up" className="text-white" size="2x"></Icon> : <Icon icon="volume-off" className="text-white" size="2x"></Icon>}
+                            < video id="video" src={`${process.env.PUBLIC_URL}/images/logo-v.mp4`} autoPlay style={{ width: "100%", height: "100%", objectFit: "cover" }} 
+                            muted></video>
+                            <div className='unmute' onClick={this.mute}>
+                                {this.state.muted === true ? 
+                                <div className='p-3' style={{ backgroundColor: 'white', borderRadius: '16px'}}>
+                                    <h6> Tap to Unmute </h6>
+                                     </div> : null}
                             </div>
                         </div>
                     </div>

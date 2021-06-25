@@ -9,7 +9,7 @@ const BelowSeaLevel = {
     fifth: `${process.env.PUBLIC_URL}/Below-img/fifth.jpg`,
 }
 
-const imageStyle = { position: "relative", backgroundSize: 'cover', boxShadow: '0px 4px 20px rgb(0 0 0 / 30%)', backgroundPosition:"center" }
+const imageStyle = { position: "relative", backgroundSize: 'cover', boxShadow: '0px 4px 20px rgb(0 0 0 / 30%)', backgroundPosition: "center" }
 
 export class Below extends Component {
     render = () => {
@@ -26,13 +26,12 @@ export class Below extends Component {
                     <div className="pb-md-1 pb-2">
                         <div className='parent' style={{ ...imageStyle, backgroundImage: `url(${BelowSeaLevel.first})`, ...style }}>
                             <div className='details'>
-                                <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%', width: '45%' }}>
+                                <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%', width: '55%' }}>
                                     <div style={{ color: 'white' }}>
                                         <h1>Snorkelling </h1>
                                         <p>Take a dip underwater and get introduced to life below sea level. It’s at its vibrant best on the shores of the Philippines, especially in Boracay, Coron and Apo Islands.</p>
                                     </div>
                                 </div>
-
                             </div>
                             <div className="student" style={{ position: 'absolute', left: '16px', top: '16px' }}>
                                 <h6 style={{ color: "white" }}>Snorkelling</h6>
@@ -48,7 +47,6 @@ export class Below extends Component {
                                         <p>Get introduced to the beautiful marine life effortlessly, with a fun ride deep into the waters around our Islands, the life you’ll see below will leave a mark on your memory</p>
                                     </div>
                                 </div>
-
                             </div>
                             <div className="student" style={{ position: 'absolute', left: '16px', top: '16px' }}>
                                 <h6 style={{ color: 'white' }}>Submarine Ride</h6>
@@ -59,11 +57,10 @@ export class Below extends Component {
                 <div className="col-md-6 col-12 ps-md-1 pt-1 pb-1">
                     <div className='parent' style={{ ...imageStyle, backgroundImage: `url(${BelowSeaLevel.third})`, height: 490 }}>
                         <div className='details'>
-                            <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', height: '100%', width: '45%' }}>
+                            <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', height: '100%', width: '70%' }}>
                                 <div style={{ color: 'white' }}>
                                     <h1>Whale Shark tours</h1>
-                                    <p>Meet the kings and queens of the Pacific ocean, tours to see the majestic whale shark set sail from all around the nation. This is ocean safari at its best.
-</p>
+                                    <p>Meet the kings and queens of the Pacific ocean, tours to see the majestic whale shark set sail from all around the nation. This is ocean safari at its best.</p>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +87,7 @@ export class Below extends Component {
                 <div className="col-md-5 col-12 ps-md-1 pt-1 pb-1">
                     <div className='parent' style={{ ...imageStyle, backgroundImage: `url(${BelowSeaLevel.fifth})`, height: 512 }}>
                         <div className='details'>
-                            <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', height: '100%', width: '55%' }}>
+                            <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', height: '100%', width: '60%' }}>
                                 <div style={{ color: 'white' }}>
                                     <h1>Deep Sea Diving</h1>
                                     <p>Divers are in for a treat, if you’re enthusiastic about diving just head to Tubbataha Reefs Natural Park, Anilao - Batangas, Dauin - Dumaguete, or  Moalboal - Cebu and more.</p>
