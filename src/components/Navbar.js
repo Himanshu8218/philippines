@@ -18,6 +18,7 @@ export class NavbarComponent extends Component {
         const { redirect } = this.state;
 
         if (redirect) {
+            this.setState({redirect: false})
             return <Redirect to='/' />;
         }
 

@@ -46,7 +46,7 @@ export class HeaderComponent extends Component {
                             <div className='unmute' onClick={this.mute}>
                                 {this.state.muted === true ? 
                                 <div className='p-3' style={{ backgroundColor: 'white', borderRadius: '16px'}}>
-                                    <h6> Tap to Unmute </h6>
+                                    <h6> Press to unmute </h6>
                                      </div> : null}
                             </div>
                         </div>
