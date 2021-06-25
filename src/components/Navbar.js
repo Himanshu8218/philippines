@@ -35,7 +35,7 @@ export class NavbarComponent extends Component {
                                 </div>
                             </div>
                             <div className="col-auto pointer" onClick={this.handleClick}>
-                                <div className=""><img src={`${process.env.PUBLIC_URL}/images/logo.png`} className="img-fluid" style={{ width: "90px" }} /></div>
+                                <div className=""><img src={`${process.env.PUBLIC_URL}/images/logo.png`} className="img-fluid" style={{ width: "100px" }} /></div>
                             </div>
                         </div>
                     </div>
