@@ -58,17 +58,17 @@ export class AdventureScreen extends Component {
                             <div className="row justify-content-center text-center pt-5 pb-5" style={{ color: 'white', boxShadow: '', cursor: 'pointer' }}>
                                 <div className="col-3" style={{ borderRight: '1px solid' }} onClick={() => { this.setState({ currentTab: "below" }) }}>
                                     <div className='toggle' style={this.state.currentTab === 'below' ? { color: "yellow", textShadow: '2px 2px 4px #000000', transform: 'scale(1.3)' } : {}}>
-                                        BELOW SEA LEVEL
+                                        <h5>BELOW SEA LEVEL</h5>
                                      </div>
                                 </div>
                                 <div className="col-3" style={{ borderRight: '1px solid' }} onClick={() => { this.setState({ currentTab: "at" }) }}>
                                     <div className='toggle' style={this.state.currentTab === 'at' ? { color: "yellow", textShadow: '2px 2px 4px #000000', transform: 'scale(1.3)' } : {}}>
-                                        AT SEA LEVEL
+                                        <h5>AT SEA LEVEL</h5>
                                      </div>
                                 </div>
                                 <div className="col-3"  onClick={() => { this.setState({ currentTab: "above" }) }}>
                                     <div className='toggle' style={this.state.currentTab === 'above' ? { color: "yellow", textShadow: '2px 2px 4px #000000', transform: 'scale(1.3)' } : {}}>
-                                        ABOVE SEA LEVEL
+                                        <h5>ABOVE SEA LEVEL</h5>
                                      </div>
                                 </div>
                                 </div>
